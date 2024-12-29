@@ -1,0 +1,83 @@
+.social-tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 7px 10px 7px 10px;
+    overflow: hidden;
+}
+.left-social-tab{
+    gap: 15px;
+}
+.social-links a{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.social-account{
+    gap: 10px;
+    /* background-color: blanchedalmond; */
+}
+.social-icons{
+    gap: 20px;
+    /* background-color: aqua; */
+}
+.social-links{
+    gap: 10px;
+    /* background-color: bisque; */
+}
+.social-account a{
+    font-size: small;
+
+}
+.social-icons a{
+    font-size: medium;
+}
+
+/* hover effect */
+.fac-icon :hover {
+    color:blue ;
+}
+.git-icon :hover {
+    color: red;
+}
+.glab-icon :hover {
+    color: orange;
+}
+.msg-icon :hover {
+    color: purple;
+}
+.twitt-icon :hover {
+    color:brown ;
+}
+.twit-icon :hover {
+    color: blue;
+}
+.pin-icon :hover {
+    color: red;
+}
+.wats-icon :hover {
+    color: green;
+}
+.linkh-icon :hover {
+    color:blue ;
+}
+.goog-icon :hover {
+    color: red;
+}
+.gith-icon :hover {
+    color:black ;
+}
+.inst-icon :hover {
+    color: red;
+}
+.my-account:hover{
+    color: #58cbe6;
+}
+.login:hover{
+    color: #58cbe6;
+}

@@ -1,41 +1,50 @@
 .social-tab{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    position: relative;
     padding: 7px 10px 7px 10px;
-    overflow: hidden;
 }
-.left-social-tab{
-    gap: 15px;
+.right-social-tab{
+    float: right;
+    gap: 35px;
 }
-.social-links a{
+.left-social-tab a{
     font-size: small;
     display: flex;
     flex-direction: row;
-    gap: 5px;
-    /* justify-content: center; */
-    /* align-items: center; */
+    gap: 1px;
 }
 .social-account{
     gap: 10px;
-    /* background-color: blanchedalmond; */
 }
 .social-icons{
     gap: 20px;
-    /* background-color: aqua; */
 }
-.social-links{
+.left-social-tab{
+    margin: 0rem 1rem 1rem 0rem;
+    float: left;
     gap: 10px;
-    /* background-color: bisque; */
 }
 .social-account a{
     font-size: small;
-
 }
 .social-icons a{
     font-size: medium;
+}
+.gayab{
+    display: none;
+}
+.menu-icon{
+    display: none;
+    font-size: larger;
+}
+.menu{
+    display: none;
+    float: right;
+    transform: translate(25.6rem, 1rem);
+    font-size: small;
+    width: 10rem;
+    padding: 0.5rem 1.5rem 0.5rem 1rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.20);
 }
 
 /* hover effect */
@@ -80,4 +89,87 @@
 }
 .login:hover{
     color: #58cbe6;
+}
+
+/* Navbar Styling */
+.navbar-comp{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 2rem;
+        padding-left: 7px;
+        padding-right: 7px;
+}
+.navbar-left-tab{
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-img{
+    height: 60px;
+    width: auto;
+    margin-top: 10px;
+}
+.web-name{
+    line-height: 5px;
+}
+.web-name-title{
+    font-size: 30px;
+}
+.web-name-description{
+    font-size: small;
+}
+.navbar-right-tab{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: beige;
+}
+.search-input{
+    height:35px;
+    width: 60%;
+}
+.submit{
+    font-size: 16px;
+    background-color: #58cbe6;
+    color: white;
+    width: 25%;
+    height: 100%;
+    transform: translateY(1px);
+    border: 2px solid #58cbe6;
+}
+#search-products{
+    border: 2px solid #58cbe6;
+    background-color: #fafafa;
+    color: #747474;
+    font-size: smaller;
+    padding-left: 10px;
+    height: 100%;
+    width: 75%;
+}
+.add-to-cart-details{
+   color: #747474;
+   font-size: 25px;
+}
+
+@media screen and ( max-width : 985px ){
+    .my-account ,  .login {
+        display: none;
+    }
+    .menu-icon,.menu{
+        display: block;
+    }
+}
+@media screen and ( max-width : 695px ){
+    .social-icons{
+        display: none;
+    }   
+    .menu{
+        transform: translate( 0 , 0);
+    }
 }

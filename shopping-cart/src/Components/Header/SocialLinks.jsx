@@ -13,7 +13,7 @@ export const Social = () => {
     return (
         <div className="social-tab">
 
-            <div className="left-social-tab flex-row">
+            <div className="left-social-tab">
                <a href=""><ImLocation2 /> Abc, Washington Lahore Pakistan</a>
                <a href=""><ImPhone /> +92 3055997241</a>
                <a href=""><ImGoogle/> support@gmail.com</a>

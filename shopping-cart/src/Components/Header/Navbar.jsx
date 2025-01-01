@@ -1,6 +1,8 @@
-import { ImHeart, ImSearch } from "react-icons/im"
+import {  ImSearch } from "react-icons/im"
+import { FaBasketShopping } from "react-icons/fa6";
+
 import "./Header.css"
-import { LuHeart } from "react-icons/lu"
+import { LuHeart, LuShoppingCart } from "react-icons/lu"
 export const Navbar = () => {
 
     return (
@@ -21,10 +23,29 @@ export const Navbar = () => {
                         <ImSearch/>
                     </button>
                 </div>
-                <div className="add-to-cart-details">
-                        <LuHeart/>
-                        
-                        
+                <div className="right-tab-cart-details flex-row">
+                        <span className="add-to-cart-details">
+                            <div className="count-total-cart flex-column">0</div>
+                              <a href="">
+                                 <LuHeart/>
+                            </a>
+                        </span>
+                        <span className="add-to-cart-details">
+                        <div className="count-total-cart flex-column">0</div>
+                               <a href="">
+                                    <FaBasketShopping/>
+                                </a>
+                        </span>
+                        <span className="cart-total-price">
+                            <p> <b>Total</b> $0.00</p>
+                        </span>
+
+                        <span className="shopping-bag flex-column">
+                            <a href="">
+                            <LuShoppingCart/>
+                            </a>
+                        </span>
+
                 </div>
             </div>
         </nav>

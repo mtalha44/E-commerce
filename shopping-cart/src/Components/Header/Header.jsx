@@ -1,4 +1,5 @@
 import { Navbar } from "./Navbar"
+import { NavPages } from "./NavPages"
 import { Social } from "./SocialLinks"
 
 
@@ -11,6 +12,9 @@ export const Header = () => {
             </div>
             <div className="navbar">
                 <Navbar/>
+            </div>
+            <div>
+                <NavPages/>
             </div>
         </div>
     )

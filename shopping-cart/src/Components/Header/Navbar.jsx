@@ -3,20 +3,20 @@ import { FaBasketShopping } from "react-icons/fa6";
 
 import "./Header.css"
 import { LuHeart, LuShoppingCart } from "react-icons/lu"
-export const Navbar = () => {
+export const Navbar = ({hidescroll}) => {
 
     return (
-        <nav className="navbar-comp">
-            <div className="navbar-left-tab">
+        <nav className={hidescroll ? "toggle-navbar-comp" : "navbar-comp"}>
+            <div className={hidescroll ? "toggle-navbar-left-tab" : "navbar-left-tab"}>
                 <div className="logo">
-                    <img src="./Logo/site-logo-1.png" alt="" className="logo-img"/>
+                    <img src="./Logo/site-logo-1.png" alt="" className={hidescroll ? "toggle-logo-img" : "logo-img"}/>
                 </div>
                 <div className="web-name">
-                    <h1 className="web-name-title">Shopping Store</h1>
-                    <p className="web-name-description">No.1 Ecommerce Store in the world</p>
+                    <h1 className={hidescroll ? "toggle-web-name-title" : "web-name-title"}>Shopping Store</h1>
+                    <p className={ hidescroll ? "gayab" : "web-name-description"}>No.1 Ecommerce Store in the world</p>
                 </div>
             </div>
-            <div className="navbar-right-tab">
+            <div className={hidescroll ? "gayab" : "navbar-right-tab"}>
                 <div className="search-input">
                     <input type="search" name="" id="search-products" placeholder="Search Products..."/>
                     <button type="submit" className="submit">

@@ -208,31 +208,15 @@
 .nav-container {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 25px;
     margin-top:1rem ;
     padding: 10px 20px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    position: relative;
-    transition: all 0.3s ease-in-out;
+    /* position: relative; */
+    transition: all 0.5s linear;
   }
-  .sticky{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-  }
-  /* .nav-container {
-    position: relative;
-    width: 100%;
-    background-color: #fff;
-    transition: all 0.3s ease-in-out;
-    z-index: 1000;
-    padding: 10px 20px;
-  } */
+
 
   .nav-container a {
     letter-spacing: 1px;
@@ -250,9 +234,9 @@
 
 .active-link {
       font-size: 14px;
-    color:#58cbe6;
-  }
-  
+      color:#58cbe6;
+    }
+
   /* Dropdown Styles */
   .dropdown {
     position: relative;
@@ -260,7 +244,7 @@
   
   .dropdown-button {
     background-color: white;
-    /* color: white; */
+    color: #333333;
     gap: 3px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -270,7 +254,9 @@
     /* border-radius: 4px; */
     cursor: pointer;
   }
-  
+  .dropdown-button:hover{
+    color: #58cbe6;
+  }
   .dropdown-menu {
     position: absolute;
     top: 40px;
@@ -332,6 +318,11 @@
     .navbar-comp{
         display: flex;
         flex-direction: column;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+
     }
 }
 @media screen and ( max-width : 695px ){
@@ -407,4 +398,61 @@
     .left-social-tab a {
         font-size: 10px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header-toggle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+    background: white;
+    border-bottom: 1px solid #ddd;
+    /* margin-top: -2.6rem; */
+    top: 0px;
+    width: 100%;
+
+    transition: all 0.2s linear;
+}
+.gayab{
+    display: none;
+}
+.toggle-navbar-comp{
+    /* margin-top: 2rem; */
+}
+.toggle-navbar-left-tab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    padding-top: 3px;
+    gap: 5px;
+}
+.toggle-logo-img{
+    height: 40px;
+    width: auto;
+}
+.toggle-web-name-title{
+    font-size: 20px;
+}
+.nav-container{
+    /* border: none; */
+}
+.toggle-nav-container{
+    border: none;
+    margin-top: 0px;
+    margin-right: 1rem;
 }

@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import { Header } from "./Components/Header/Header";
 import { AppLayout } from "./Components/AppLayout/Applayout";
+import { Home } from "./Components/Pages/Home/Home";
 
 function App() {
   const router = createBrowserRouter([
@@ -11,7 +11,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: <h1>Home Page</h1>,
+          element: <Home/>,
         },
         {
           path: "/popular_items",

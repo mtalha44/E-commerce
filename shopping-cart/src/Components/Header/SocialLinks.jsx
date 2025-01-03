@@ -1,5 +1,5 @@
 import { ImGit, ImGithub, ImGoogle, ImLinkedin2, ImLocation2, ImMenu, ImPhone, ImPinterest2, ImTwitch, ImWhatsapp } from "react-icons/im";
-import { LuFacebook, LuGitlab, LuInstagram, LuTwitter } from "react-icons/lu";
+import { LuFacebook, LuGitlab, LuInstagram, LuMenu, LuTwitter } from "react-icons/lu";
 import { LuMessageCircle } from "react-icons/lu";
 
 import "./Header.css"
@@ -39,7 +39,8 @@ export const Social = () => {
                 <a href="" className="my-account">My Account</a>
                 <a href="" className="login">Login</a>
                 <div className="menu-icon" onClick={toggleMenu}>
-                    <ImMenu/>                                         
+                    {/* <ImMenu/>                                          */}
+                    <LuMenu/>
                  </div>
             </div>
             </div>

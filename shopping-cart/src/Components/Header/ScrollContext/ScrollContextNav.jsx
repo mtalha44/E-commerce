@@ -7,7 +7,8 @@ export const ScrollContextProvider = ({ children }) => {
 
     useEffect(() => {
         const handleScroll = () => {
-            const homeDiv1 = document.getElementById("home-div1");
+            // const homeDiv1 = document.getElementById("home-div1");
+            const homeDiv1 = document.getElementById("deals-container");
             if (!homeDiv1) return;
 
             const rect = homeDiv1.getBoundingClientRect();

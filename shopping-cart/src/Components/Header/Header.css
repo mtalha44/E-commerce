@@ -1,3 +1,6 @@
+#header{
+    background-color: #fff;
+}
 .social-tab{
     position: relative;
     padding: 7px 10px 7px 10px;
@@ -137,6 +140,7 @@
 }
 .web-name-title{
     font-size: 30px;
+    color: #58cbe6;
 }
 .web-name-description{
     font-size: small;
@@ -158,8 +162,8 @@
     background-color: #58cbe6;
     color: white;
     width: 25%;
-    height: 99.5%;
-    transform: translateY(2px);
+    height: 100%;
+    transform: translateY(1px);
     border: 2px solid #58cbe6;
 }
 #search-products{
@@ -201,7 +205,6 @@
     font-size: 30px;
 }
 
-
 /* NavPages styling */
 /* General Navigation Styles */
 
@@ -214,7 +217,7 @@
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     /* position: relative; */
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
   }
 
 
@@ -281,14 +284,61 @@
   }
   
   .dropdown-item:hover {
-    /* background-color: #f0f0f0; */
     color: #58cbe6;
   }
   
   .dropdown-item:last-child {
     border-bottom: none;
   }
+  .navbar-handler{
+    display: none;
+  }
   
+
+  /* header after scrolling */
+
+  .header-toggle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 11111;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    top: 0px;
+    width: 100%;
+
+    transition: all 0.2s linear;
+}
+.gayab{
+    display: none;
+}
+.toggle-navbar-left-tab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    padding-top: 3px;
+    gap: 5px;
+}
+.toggle-logo-img{
+    height: 40px;
+    width: auto;
+}
+.toggle-web-name-title{
+    font-size: 20px;
+    color: #58cbe6;
+}
+.toggle-nav-container{
+    border: none;
+    margin-top: 0px;
+    margin-right: 1rem;
+}
+
+
+
 @media screen and ( max-width : 1145px ){
     .navbar-comp{
         margin-top: 3rem;
@@ -310,8 +360,8 @@
         width: 400px;
     }
     .submit{
-        transform: translateY(2px);
-        height: 99.5%;
+        /* transform: translateY(2px);
+        height: 99.5%; */
     }
 }
 @media screen and ( max-width : 765px ){
@@ -322,7 +372,28 @@
     .nav-container{
         display: flex;
         flex-direction: column;
-
+        padding: 20px 20px;
+        border-top: 1px solid #ddd;
+        margin-top: 0px;
+    }
+    .navbar-handler{
+        /* display: inline-block; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 15px; */
+        font-size: 1.5rem; 
+        padding: 9px 0px 5px 0px;
+        border: none;
+    }
+    .header-nav-pages-container{
+        /* border-top:"1px solid #3333" ;
+        border-bottom:"1px solid #3333" ; */
+        /* margin-top:"2rem"; */
+        margin-top: 2rem;
+        border-top: 1px solid #3333;
+        /* border-bottom: 1px solid #3333; */
     }
 }
 @media screen and ( max-width : 695px ){
@@ -360,8 +431,8 @@
         justify-content: center;
     }
     .submit{
-        transform: translateY(2px);
-        height: 99.5%;
+        transform: translateY(1px);
+        height: 100%;
     }
 }
 @media screen and ( max-width: 330px ) {
@@ -411,48 +482,3 @@
 
 
 
-.header-toggle{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    
-    background: white;
-    border-bottom: 1px solid #ddd;
-    /* margin-top: -2.6rem; */
-    top: 0px;
-    width: 100%;
-
-    transition: all 0.2s linear;
-}
-.gayab{
-    display: none;
-}
-.toggle-navbar-comp{
-    /* margin-top: 2rem; */
-}
-.toggle-navbar-left-tab{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-left: 1rem;
-    padding-top: 3px;
-    gap: 5px;
-}
-.toggle-logo-img{
-    height: 40px;
-    width: auto;
-}
-.toggle-web-name-title{
-    font-size: 20px;
-}
-.nav-container{
-    /* border: none; */
-}
-.toggle-nav-container{
-    border: none;
-    margin-top: 0px;
-    margin-right: 1rem;
-}

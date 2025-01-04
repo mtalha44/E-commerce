@@ -14,7 +14,7 @@ export const Header = () => {
             <div className="navbar">
                 <Navbar hidescroll = {hidescroll}/>
             </div>
-            <div>
+            <div className="header-nav-pages-container">
               <NavPages hidescroll= {hidescroll} />
             </div>
         </div>

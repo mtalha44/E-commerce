@@ -55,13 +55,13 @@ useEffect(() => {
           className="dropdown-button flex-row"
           onClick={() => setDropdownOpen(!dropdownOpen)}
           onMouseEnter={() => setDropdownOpen(true)}
-          onMouseLeave={() => setDropdownOpen(false)}
+          
         >
           Product Category
           <IoIosArrowDown />
         </button>
         {dropdownOpen && (
-          <div className="dropdown-menu">
+          <div className="dropdown-menu" onMouseLeave={() => setDropdownOpen(false)}>
             <NavLink to="/popular_items" className="dropdown-item">
               Popular Items
             </NavLink>
@@ -91,14 +91,14 @@ useEffect(() => {
           className="dropdown-button flex-row"
           onClick={() => setDropSectionOpen(!dropSectionOpen)}
           onMouseEnter={() => setDropSectionOpen(true)}
-          onMouseLeave={() => setDropSectionOpen(false)}
+          
   
         >
           Sections
           <IoIosArrowDown />
         </button>
         {dropSectionOpen && (
-          <div className="dropdown-menu">
+          <div className="dropdown-menu" onMouseLeave={() => setDropSectionOpen(false)}>
             <NavLink to="/cart" className="dropdown-item">
               Cart
             </NavLink>

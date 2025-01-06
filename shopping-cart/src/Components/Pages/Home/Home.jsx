@@ -1,4 +1,5 @@
 import "./Home.css"
+import  ProductCategories  from "./ProductCategories"
 import { ImageSlider } from "./SlideGallery"
 
 export const Home = () => {
@@ -32,11 +33,8 @@ export const Home = () => {
             <a href=""><img src="/images/StockSnap_img.jpg" alt="" /></a>
         </div>
 
-        <div className="product-categories">
-            <div className="product-categories-title">
-                <h1>Product Categories</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
+        <div className="product-categories-container">
+            <ProductCategories/>
         </div>
 
     </section>

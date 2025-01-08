@@ -115,6 +115,7 @@
   }
   
   .stock-section{
+    /* margin-top: 3rem; */
     width: 100%;
     padding: 0%;
     justify-content: center;
@@ -140,21 +141,22 @@
   /* General styles */  
   .product-categories {
     /* max-width: 1200px; */
-    max-width: 90%;
-    margin: auto;
-    padding: 3rem 1rem; /* Add padding for smaller screens */
+    /* max-width: 90%; */
+    /* margin: auto; */
+    padding: 1rem 1rem;
     /* background-color: black; */
-  }
+      gap: 2rem;
+ }
   
   .product-categories-header {
     text-align: center;
-    margin-bottom: 4rem;
+    /* margin-bottom: 4rem; */
   }
   
   .product-categories-title {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    /* margin-bottom: 0.5rem; */
     color: #333;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -167,14 +169,23 @@
   
   /* Grid Layout */
   .product-categories-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Auto-fit to screen */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
     gap: 1.5rem;
+    /* justify-content: center;
+    align-items: center; */
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat( 4,1fr);
     justify-content: center;
   }
   
   /* Grid Items */
   .grid-item {
+    margin: auto;
+    width: 250px;
+    height: auto;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -217,9 +228,9 @@
     left: 0;
     right: 0;
     /* background: rgba(197, 193, 193, 0.6); */
-    background: #58cbe6;
+    background: rgb(77 110 159 / 80%);
     color:  white;
-    /* padding: 1rem; */
+    padding: 8px;
     text-align: center;
     opacity: 0;
     transform: translateY(100%);
@@ -250,31 +261,102 @@
   }
   
   /* Responsive Design */
-  @media (max-width: 768px) {
-    .product-categories-title {
-      font-size: 2rem;
-    }
-  
-    .grid-overlay h3 {
-      font-size: 1.2rem;
-    }
-  
-    .grid-overlay p {
-      font-size: 0.9rem;
+  @media (max-width: 1125px) {
+    .product-categories-grid {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
-  
-  @media (max-width: 480px) {
-    .product-categories-title {
+  @media (max-width: 895px) {
+    /* .product-categories-grid {
+      grid-template-columns: repeat(3, 1fr);
+    } */
+    .grid-item{
+      width: 200px;
+      height: auto;
+    }
+    .product-categories-title{
+      font-size: 1.8rem;
+    }
+    .grid-overlay{
+      /* padding: 6px; */
+      line-height: 15px;
+    }
+  }
+  @media (max-width: 695px) {
+    .grid-item{
+      width: 150px;
+      height: auto;
+    }
+    .product-categories-title{
       font-size: 1.5rem;
     }
-  
-    .grid-overlay h3 {
-      font-size: 1rem;
+    .product-categories-header p {
+      font-size: 0.9rem;
     }
+    .grid-overlay{
+      /* top: 55px; */
+      line-height: 15px;
+    }
+    .image-container h4{
+      font-size: 0.7rem ;
+    }
+    .image-container .grid-overlay p{
+      font-size: 0.6rem ;
+    }
+    
+  }
   
-    .grid-overlay p {
-      font-size: 0.8rem;
+  @media (max-width: 535px) {
+    .grid-item{
+      width: 160px;
+    }
+    .product-categories-grid{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .product-categories-title{
+      font-size: 1.3rem;
+    }
+    .product-categories-header p {
+      font-size: 0.7rem;
     }
   }
   
+  @media (max-width: 395px) {
+    .grid-item{
+      width: 140px;
+    }
+    .product-categories-grid{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .image-container h4{
+      margin-top: -3px;
+      font-size: 0.7rem;
+    }
+    .image-container .grid-overlay p{
+      font-size: 0.6rem;
+    }
+    .grid-overlay{
+      bottom: -10px;
+    }
+  }
+  @media (max-width: 335px) {
+    .grid-item{
+      width: 100px;
+    }
+    .product-categories-grid{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .product-categories-title{
+      font-size: 1rem;
+    }
+    .product-categories-header p {
+      font-size: 0.6rem;
+    }
+    .image-container h4{
+      font-size: 0.5rem ;
+    }
+    .image-container .grid-overlay p{
+      font-size: 0.4rem ;
+    }
+  }
+

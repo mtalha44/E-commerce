@@ -1,7 +1,7 @@
 import "./Home.css"
-import  ProductCategories  from "./ProductCategories"
-import { ImageSlider } from "./SlideGallery"
-
+import { Perfumes } from "./Perfumes/Perfumes"
+import { ProductCategories } from "./ProductCategories/ProductCategories"
+import { ImageSlider } from "./SlideGallery/SlideGallery"
 export const Home = () => {
    return (
    <section className="home" id="home">
@@ -36,7 +36,9 @@ export const Home = () => {
         <div className="product-categories-container">
             <ProductCategories/>
         </div>
-
+        <div className="stocks">
+            <Perfumes/>
+        </div>
     </section>
     )
 }

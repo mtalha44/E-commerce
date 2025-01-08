@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+
 
 const productImages = [
   {
@@ -41,7 +41,7 @@ const productImages = [
 
 export const ProductCategories = () => {
   return (
-    <section className="product-categories" id="product-categories">
+    <section className="product-categories flex-column" id="product-categories">
       <div className="product-categories-header">
         <h1 className="product-categories-title">Explore Our Product Categories</h1>
         <p>Discover a wide range of top-quality products from trusted brands.</p>

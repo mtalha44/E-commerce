@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Home.css";
+// import "./Home.css";
 
 const images = [
     "./images/img-slider-1.jpg",

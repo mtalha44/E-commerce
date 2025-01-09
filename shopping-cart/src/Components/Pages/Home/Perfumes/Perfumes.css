@@ -1,0 +1,130 @@
+.makeup-container{
+    margin-top: 3rem;
+    gap: 2rem;
+}
+.makeup-list{
+}
+.makeup-list{
+    padding: 0%;
+    width: 90%;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap; */
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr);
+    justify-content: center;
+    
+}
+    .makeup-item{
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-bottom: 2rem;
+    /* overflow: hidden; */
+    color:#222222;;
+}
+.makeup-item img{
+    width: 100%;
+    height: auto;
+}
+.add-to-cart{
+    border: 1px solid black;
+    height: 1.6rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.add-to-cart-icon-1 , .add-to-cart-icon-2{
+    font-size: 1.2rem;
+    padding: 5px 3px 0px 2px;
+    /* border-left: 1px solid black; */
+    /* height: 100%; */
+
+}
+.add-to-cart-icon-2{
+    border-left: 1px solid black;
+}
+.product-add-to-cart-details{
+    font-size: 0.9rem;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+.makeup-title-container{
+    line-height: 0px;
+}
+.makeup-title{
+    font-size: 2.5rem;
+}
+
+
+/* See more button Styliing */
+.wrapper{
+    /* position: fixed; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+  .link_wrapper a{
+    display: block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    /* background: #333; */
+    background: rgb(77 110 159 / 100%);
+    color:  white;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid rgb(77 110 159 / 80%);
+    transition: all .35s;
+  }
+  
+  .icon{
+    width: 30px;
+    height: 30px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    /* fill: #2ecc71; */
+    fill: #58cbe6;;
+    transition: all .35s;
+  }
+  
+  .link_wrapper a:hover{
+    width: 120px;
+    /* border: 3px solid #2ecc71; */
+    border: 3px solid #58cbe6;
+    background: transparent;
+    /* color: #2ecc71; */
+    color: #58cbe6;
+  }
+  
+  .link_wrapper a:hover + .icon{
+    /* border: 3px solid #2ecc71; */
+    border: 3px solid #58cbe6;
+    right: -25%;
+  }

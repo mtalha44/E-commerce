@@ -52,7 +52,7 @@ export const ProductCategories = () => {
             <div className="image-container">
               <img src={item.src} alt={item.title} />
               <div className="grid-overlay">
-                <h4>{item.title}</h4>
+                <h4 style={{textTransform: "uppercase"}}>{item.title}</h4>
                 <p>{item.description}</p>
               </div>
             </div>

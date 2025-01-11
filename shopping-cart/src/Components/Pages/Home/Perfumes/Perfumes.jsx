@@ -64,8 +64,15 @@ import { LuHeart } from "react-icons/lu"
 // };
 import "./Perfumes.css"
 import { useNavigate } from "react-router-dom"
+import { useRef } from "react"
 export const Perfumes = () => {
+  const scrollContainerRef = useRef(null);
 
+  const scroll = (direction) => {
+    const container = scrollContainerRef.current;
+    const cardWidth = container.querySelector(".makeup-item").offsetWidth + 30; // Card width + gap
+    container.scrollBy({ left: direction === "left" ? -cardWidth : cardWidth, behavior: "smooth" });
+  };
   const navigate = useNavigate();
 
   return (
@@ -74,12 +81,163 @@ export const Perfumes = () => {
           <h1 className="makeup-title">Beauty and Makeup</h1>
           <p className="makeup-subtitle">Top branded makeup products</p>
         </div>
+        <div className="scroll-btn-container">
+          <button className="scroll-button left" onClick={() => scroll("left")}>
+              &lt;
+            </button>
+            <button className="scroll-button right" onClick={() => scroll("right")}>
+              &gt;
+          </button>
+        </div>
 
-        <ul className="makeup-list">
-          <li className="makeup-item flex-column">
+        <ul className="makeup-list" ref={scrollContainerRef}>
+          <li className="makeup-item">
             <img src="/images/small-slider-banner-1.jpg" alt="" />
-            <h4>Pepugana Lipstick</h4>
+           <div className="makeup-item-details">
+
+             <h4 className="makeup-item-title" style={{textAlign: "center"}}>Pepugana sdLipbc Nya</h4> 
+            {/* <p>Pepugana Lipstick</p> */}
+            <p style={{textAlign: "center"}}>5.0$ <del> 10.0$</del></p>
+           </div>
+              <div className="add-to-cart flex-row">
+                <span className="add-to-cart-icon-1">
+                <FaBasketShopping/>
+                </span>
+                <span className="product-add-to-cart-details">
+                  Add to Cart
+                </span>
+                <span className="add-to-cart-icon-2">
+                <LuHeart/>
+                </span>
+              </div>
+          </li>
+          <li className="makeup-item">
+            <img src="/images/small-slider-banner-1.jpg" alt="" />
+           <div className="makeup-item-details">
+
+             <h4 className="makeup-item-title" style={{textAlign: "center"}}>Pepugana Nya</h4> 
+            {/* <p>Pepugana Lipstick</p> */}
+            <p style={{textAlign: "center"}}>5.0$ <del> 10.0$</del></p>
+           </div>
+              <div className="add-to-cart flex-row">
+                <span className="add-to-cart-icon-1">
+                <FaBasketShopping/>
+                </span>
+                <span className="product-add-to-cart-details">
+                  Add to Cart
+                </span>
+                <span className="add-to-cart-icon-2">
+                <LuHeart/>
+                </span>
+              </div>
+          </li>
+          <li className="makeup-item">
+            <img src="/images/small-slider-banner-1.jpg" alt="" />
+           <div className="makeup-item-details">
+
+             <h4 className="makeup-item-title" style={{textAlign: "center"}}>Pepugana Nya</h4> 
+            {/* <p>Pepugana Lipstick</p> */}
+            <p style={{textAlign: "center"}}>5.0$ <del> 10.0$</del></p>
+           </div>
+              <div className="add-to-cart flex-row">
+                <span className="add-to-cart-icon-1">
+                <FaBasketShopping/>
+                </span>
+                <span className="product-add-to-cart-details">
+                  Add to Cart
+                </span>
+                <span className="add-to-cart-icon-2">
+                <LuHeart/>
+                </span>
+              </div>
+          </li>
+          <li className="makeup-item">
+            <img src="/images/small-slider-banner-1.jpg" alt="" />
+           <div className="makeup-item-details">
+
+             <h4 className="makeup-item-title" style={{textAlign: "center"}}>Pepugana Nya</h4> 
+            {/* <p>Pepugana Lipstick</p> */}
+            <p style={{textAlign: "center"}}>5.0$ <del> 10.0$</del></p>
+           </div>
+              <div className="add-to-cart flex-row">
+                <span className="add-to-cart-icon-1">
+                <FaBasketShopping/>
+                </span>
+                <span className="product-add-to-cart-details">
+                  Add to Cart
+                </span>
+                <span className="add-to-cart-icon-2">
+                <LuHeart/>
+                </span>
+              </div>
+          </li>
+          <li className="makeup-item">
+            <img src="/images/small-slider-banner-1.jpg" alt="" />
+           <div className="makeup-item-details">
+
+             <h4 className="makeup-item-title" style={{textAlign: "center"}}>Pepugana Nya</h4> 
+            {/* <p>Pepugana Lipstick</p> */}
+            <p style={{textAlign: "center"}}>5.0$ <del> 10.0$</del></p>
+           </div>
+              <div className="add-to-cart flex-row">
+                <span className="add-to-cart-icon-1">
+                <FaBasketShopping/>
+                </span>
+                <span className="product-add-to-cart-details">
+                  Add to Cart
+                </span>
+                <span className="add-to-cart-icon-2">
+                <LuHeart/>
+                </span>
+              </div>
+          </li>
+          <li className="makeup-item">
+            <img src="/images/small-slider-banner-1.jpg" alt="" />
+           <div className="makeup-item-details">
+
+             <h4 className="makeup-item-title" style={{textAlign: "center"}}>Pepugana Nya</h4> 
+            {/* <p>Pepugana Lipstick</p> */}
+            <p style={{textAlign: "center"}}>5.0$ <del> 10.0$</del></p>
+           </div>
+              <div className="add-to-cart flex-row">
+                <span className="add-to-cart-icon-1">
+                <FaBasketShopping/>
+                </span>
+                <span className="product-add-to-cart-details">
+                  Add to Cart
+                </span>
+                <span className="add-to-cart-icon-2">
+                <LuHeart/>
+                </span>
+              </div>
+          </li>
+          <li className="makeup-item">
+            <img src="/images/small-slider-banner-1.jpg" alt="" />
+           <div className="makeup-item-details">
+
+             <h4 className="makeup-item-title" style={{textAlign: "center"}}>Pepugana Lipbc Nya</h4> 
+            {/* <p>Pepugana Lipstick</p> */}
+            <p style={{textAlign: "center"}}>5.0$ <del> 10.0$</del></p>
+           </div>
+              <div className="add-to-cart flex-row">
+                <span className="add-to-cart-icon-1">
+                <FaBasketShopping/>
+                </span>
+                <span className="product-add-to-cart-details">
+                  Add to Cart
+                </span>
+                <span className="add-to-cart-icon-2">
+                <LuHeart/>
+                </span>
+              </div>
+          </li>
+          {/* <li className="makeup-item flex-column">
+            <img src="/images/small-slider-banner-1.jpg" alt="" />
+            <div>
+
+            <h4 className="makeup-item-title">Pepugana Lipstick</h4>
             <p>5.0$ <del> 10.0$</del></p>
+            </div>
               <div className="add-to-cart flex-row">
                 <span className="add-to-cart-icon-1">
                 <FaBasketShopping/>
@@ -171,7 +329,7 @@ export const Perfumes = () => {
                 <LuHeart/>
                 </span>
               </div>
-          </li>
+          </li> */}
         </ul>
 
           {/* <button onClick={() => navigate("/makeup_products")}>See more</button> */}

@@ -1,5 +1,6 @@
 import "./Home.css"
 import { Perfumes } from "./Perfumes/Perfumes"
+import CardSlider from "./Practice"
 import { ProductCategories } from "./ProductCategories/ProductCategories"
 import { ImageSlider } from "./SlideGallery/SlideGallery"
 export const Home = () => {
@@ -38,6 +39,7 @@ export const Home = () => {
         </div>
         <div className="stocks">
             <Perfumes/>
+            {/* <CardSlider/> */}
         </div>
     </section>
     )

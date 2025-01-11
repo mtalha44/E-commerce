@@ -1,32 +1,37 @@
 .makeup-container{
     margin-top: 3rem;
+    margin-bottom: 3rem;
     gap: 2rem;
+    overflow: hidden;
 }
 .makeup-list{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 2.5rem;
+    padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
+    width: 95%;
 }
-.makeup-list{
-    padding: 0%;
-    width: 90%;
-    /* display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap; */
-    gap: 1rem;
-    display: grid;
-    grid-template-columns: repeat( 5, 1fr);
-    justify-content: center;
-    
+.makeup-list::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
 }
     .makeup-item{
-    width: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     background-color: white;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
     padding-bottom: 2rem;
-    /* overflow: hidden; */
     color:#222222;;
+    flex: 0 0 calc(20% - 2rem); /* 5 cards on large screens */
+  max-width: calc(20% - 2rem);
+
 }
+
 .makeup-item img{
     width: 100%;
     height: auto;
@@ -36,13 +41,12 @@
     height: 1.6rem;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
+    ;
 }
 .add-to-cart-icon-1 , .add-to-cart-icon-2{
     font-size: 1.2rem;
     padding: 5px 3px 0px 2px;
-    /* border-left: 1px solid black; */
-    /* height: 100%; */
-
 }
 .add-to-cart-icon-2{
     border-left: 1px solid black;
@@ -60,15 +64,11 @@
     font-size: 2.5rem;
 }
 
+.makeup-item-title{
+  font-size: 0.9rem;
+}
 
 /* See more button Styliing */
-.wrapper{
-    /* position: fixed; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-  }
-  
   .link_wrapper{
     position: relative;
   }
@@ -80,7 +80,6 @@
     line-height: 30px;
     font-weight: bold;
     text-decoration: none;
-    /* background: #333; */
     background: rgb(77 110 159 / 100%);
     color:  white;
     text-align: center;
@@ -92,11 +91,11 @@
   }
   
   .icon{
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     border: 3px solid transparent;
     position: absolute;
-    transform: rotate(45deg);
+    transform: rotate(40deg);
     right: 0;
     top: 0;
     z-index: -1;
@@ -104,27 +103,205 @@
   }
   
   .icon svg{
-    width: 30px;
+    width: 26px;
     position: absolute;
-    top: calc(50% - 15px);
-    left: calc(50% - 15px);
-    transform: rotate(-45deg);
-    /* fill: #2ecc71; */
+    top: calc(50% - 13px);
+    left: calc(50% - 13px);
+    transform: rotate(-40deg);
     fill: #58cbe6;;
     transition: all .35s;
   }
   
   .link_wrapper a:hover{
     width: 120px;
-    /* border: 3px solid #2ecc71; */
     border: 3px solid #58cbe6;
     background: transparent;
-    /* color: #2ecc71; */
     color: #58cbe6;
   }
   
   .link_wrapper a:hover + .icon{
-    /* border: 3px solid #2ecc71; */
+    /* z-index: 66; */
     border: 3px solid #58cbe6;
     right: -25%;
   }
+ 
+  /* scroll button */
+  .scroll-btn-container{
+    width: 100%;
+    /* text-align: end; */
+    padding-right: 5rem;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin-bottom: -25px;
+  }
+  .scroll-button{
+    font-size: 1.2rem;
+    color: #58cbe6;
+    border: 1px solid #58cbe6;
+  }
+
+
+
+/* Media Queries for Responsive Layouts */
+
+/* For screens <= 1150px (4 cards per row) */
+@media (max-width: 1150px) {
+  .makeup-item {
+    flex: 0 0 calc(25% - 2rem); 
+    max-width: calc(25% - 2rem);
+  }
+}
+
+/* For screens <= 935px (3 cards per row) */
+@media (max-width: 935px) {
+  .makeup-item {
+    flex: 0 0 calc(33% - 1rem); /* 3 cards */
+    max-width: calc(30% - 1rem);
+  }
+}
+
+/* For screens <= 885px (3 cards with tighter spacing) */
+@media (max-width: 885px) {
+  .makeup-list {
+    gap: 1.5rem;
+  }
+  .makeup-item {
+    flex: 0 0 calc(33.43% - 1rem); /* 3 cards */
+    max-width: calc(33.43% - 1rem);
+  }
+}
+
+
+@media (max-width: 795px) {
+  .makeup-item {
+    flex: 0 0 calc(33.33% - 1.5rem); 
+    max-width: calc(33.33% - 1.5rem);
+  }
+  .makeup-item-title{
+    font-size: 0.9rem;
+  }
+  .link_wrapper a{
+    width: 100px;
+    height: 25px;
+    font-size: 0.8rem;
+    line-height: 25px;
+    /* text-align:initial; */
+    /* margin-top: -10px; */
+  }
+  
+  .icon{
+    width: 24px;
+    height: 24px;
+  }
+  
+  .icon svg{
+    width: 26px;
+    top: calc(50% - 13px);
+    left: calc(50% - 13px);
+    transform: rotate(-40deg);
+  }
+  
+  .link_wrapper a:hover{
+    width: 120px;
+  }
+  
+  .link_wrapper a:hover + .icon{
+    border: 3px solid #58cbe6;
+    right: -25%;
+  }
+ 
+}
+@media (max-width: 695px) {
+  .makeup-title {
+    font-size: 1.5rem;
+}
+.makeup-subtitle{
+  font-size: 0.9rem;
+}
+.makeup-item-title{
+  font-size: 0.8rem;
+  }
+  .makeup-item-details p{
+    font-size: small;
+  }
+  .add-to-cart-icon-1 , .add-to-cart-icon-2{
+    font-size: 1rem;
+  }
+  .product-add-to-cart-details{
+    font-size: 0.8rem;
+    padding-left: 2px;
+    padding-right: 4px; 
+    }
+  }
+
+@media (max-width: 535px) {
+  .makeup-title {
+    font-size: 1.3rem;
+  }
+  .makeup-subtitle{
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 575px) {
+  .makeup-list {
+    gap: 1rem; /* Reduce gap for smaller screens */
+  }
+  .makeup-item {
+    flex: 0 0 calc(52% - 1rem); /* 2 cards per row */
+    max-width: calc(52% - 1rem);
+  }
+  .add-to-cart{
+     height: 1.5rem;
+  }
+}
+
+@media (max-width: 395px) {
+  .makeup-list {
+    gap: 1rem; /* Reduce gap further */
+  }
+  .makeup-item {
+    flex: 0 0 calc(53% - 1rem); /* 2 cards per row */
+    max-width: calc(53% - 1rem);
+  }
+    .add-to-cart{
+      height: 1.3rem;
+    }
+    .makeup-item-title{
+      font-size: 0.7rem;
+    }
+    .makeup-item-details p{
+      /* font-size: 0.8rem; */
+    }
+    .add-to-cart-icon-1 , .add-to-cart-icon-2{
+      /* font-size: 0.8rem;/ */
+    }
+    .product-add-to-cart-details{
+      /* font-size: 0.6rem; */
+    }
+}
+
+@media (max-width: 335px) {
+  .makeup-title {
+    font-size: 1rem;
+  }
+  .add-to-cart{
+    height: 1.1rem;
+  }
+  .makeup-item-title{
+    font-size: 0.7rem;
+  }
+  .makeup-item-details p{
+    font-size: 0.6rem;
+  }
+  .add-to-cart-icon-1 , .add-to-cart-icon-2{
+    font-size: 0.8rem;
+  }
+  .product-add-to-cart-details{
+    font-size: 0.6rem;
+           
+  }
+  .makeup-subtitle{
+    font-size: 0.6rem;
+  }
+}

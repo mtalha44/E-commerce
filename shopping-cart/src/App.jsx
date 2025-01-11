@@ -12,6 +12,7 @@ function App() {
         {
           path: "/",
           element: <Home/>,
+          // loader : makeupApi,
         },
         {
           path: "/popular_items",
@@ -20,6 +21,7 @@ function App() {
         {
           path: "/perfumes",
           element: <h1>perfumes</h1>,
+          // loader : makeupApi,
         },
         {
           path: "/shorts",

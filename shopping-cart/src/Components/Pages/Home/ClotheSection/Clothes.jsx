@@ -13,7 +13,7 @@ export const Clothes = () => {
 
         const handle = async () => {
             try{
-                let url = 'https://api.escuelajs.co/api/v1/products/?price_min=0&price_max=1000&offset=0&limit=8';
+                let url = 'https://api.escuelajs.co/api/v1/products/?price_min=20&price_max=1000&offset=0&limit=8';
                 let response = await fetch(url);
                 if(!response.ok){
                     throw new Error(`Error occurred: ${response.status}`);

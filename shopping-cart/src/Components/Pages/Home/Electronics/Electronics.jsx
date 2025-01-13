@@ -13,12 +13,14 @@ export const Electronics = () => {
 
         const handle = async () => {
             try{
-                let url = 'https://api.escuelajs.co/api/v1/products/?price_min=0&price_max=1000&offset=10&limit=7';
+                let url = 'https://api.escuelajs.co/api/v1/products/?price_min=0&price_max=10000&offset=10&limit=8';
+                // let url = 'https://api.escuelajs.co/api/v1/products/?title=Clothes';
                 let response = await fetch(url);
                 if(!response.ok){
                     throw new Error(`Error occurred: ${response.status}`);
                 }
                 let data = await response.json();
+                // const filteredProducts = data.filter(product => product.category?.name === "Electronics");
                 console.log(data);
                 setElectronicsData(data);
                 setLoading(false);
@@ -60,7 +62,7 @@ export const Electronics = () => {
             <ElectronicsCard key={curdata.id} curdata={curdata}/>
           ))
         ) : (
-          <p>No clothes found.</p>
+          <p>No Electronics found.</p>
         )}
       </ul>
         )

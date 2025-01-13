@@ -2,9 +2,27 @@ import "../Ui/CardStyling.css"
 // import { jewleryCardData } from "./JewleryCardData"
 import { JewleryCard } from "./JewleryCard";
 import { useScroll } from "../Ui/ScrollFunctionality";
+import { useEffect } from "react";
 export const Jewlery = () => {
    const { scrollContainerRef, scroll } = useScroll();
+        const handle = async () =>{
+           try{
+               let url = "https://dummyjson.com/products/category/furniture";
+               let response = await fetch(url);
+               if(!response.ok){
+                   throw new Error(`Error occurred: ${response.status}`);
+               }
+               let data = await response.json();
+               // let filterData = data.carts;
+               console.log(data);
 
+           } catch(error){
+               console.error("Error fetching data:", error);
+           }
+       }
+       useEffect(() => {
+           handle();
+         }, []); 
   return (
     <section className="home-card-container flex-column" id="jwelry">
       <div className="home-card-title-container flex-column">
@@ -41,3 +59,27 @@ export const Jewlery = () => {
     </section>
   );
 };
+
+
+    //    const handle = async () =>{
+    //     try{
+    //         // let url = "https://dummyjson.com/products/category/furniture";
+    //         let url = "https://dummyjson.com/carts";
+    //         let response = await fetch(url);
+    //         if(!response.ok){
+    //             throw new Error(`Error occurred: ${response.status}`);
+    //         }
+    //         let data = await response.json();
+    //          let filterData = data.carts;
+    //         console.log(data);            
+    //         console.log(filterData);
+    //         console.log(filterData[0].products);
+    //         console.log(filterData[1].products);
+    //         console.log(filterData[2].products);
+    //     } catch(error){
+    //         console.error("Error fetching data:", error);
+    //     }
+    // }
+    // useEffect(() => {
+    //     handle();
+    //   }, []);

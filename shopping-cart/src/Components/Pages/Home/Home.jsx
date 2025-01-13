@@ -6,24 +6,9 @@ import { Jewlery } from "./JewlerySection/Jewlery"
 import { Makeup } from "./MakeupSection/Makeup"
 import { ProductCategories } from "./ProductCategories/ProductCategories"
 import { ImageSlider } from "./SlideGallery/SlideGallery"
+import { BestProducts } from "./BestSellingProducts/BestProducts"
 export const Home = () => {
-       const handle = async () =>{
-        try{
-            let url = "https://dummyjson.com/products/category/furniture";
-            let response = await fetch(url);
-            if(!response.ok){
-                throw new Error(`Error occurred: ${response.status}`);
-            }
-            let data = await response.json();
-            console.log(data);            
-        } catch(error){
-            console.error("Error fetching data:", error);
-        }
-    }
-    useEffect(() => {
-        handle();
-      }, []);
-    
+
    return (
    <section className="home" id="home">
             
@@ -69,6 +54,16 @@ export const Home = () => {
         <div className="electronics-stocks">
             <Electronics/>
         </div>
+
+        <div className="stock-section flex-row">
+            <a href=""><img src="/images/sharp-car-wheel-stock-img.jpg" alt="" /></a>
+        </div>
+
+        <div className="best-selling-products-stocks">
+            <BestProducts/>
+        </div>
     </section>
     )
 }
+
+

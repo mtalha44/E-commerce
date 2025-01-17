@@ -7,6 +7,7 @@ import { Makeup } from "./MakeupSection/Makeup"
 import { ProductCategories } from "./ProductCategories/ProductCategories"
 import { ImageSlider } from "./SlideGallery/SlideGallery"
 import { BestProducts } from "./BestSellingProducts/BestProducts"
+import { BrandLogoSlide } from "./BrandsLogo/BrandLogoSlide";
 export const Home = () => {
 
    return (
@@ -61,6 +62,9 @@ export const Home = () => {
 
         <div className="best-selling-products-stocks">
             <BestProducts/>
+        </div>
+        <div className="brand-promotion-add">
+            <BrandLogoSlide/>
         </div>
     </section>
     )

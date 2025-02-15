@@ -3,6 +3,7 @@ import "../Ui/CardStyling.css"
 import { useScroll } from "../Ui/ScrollFunctionality";
 import { ClothesCard } from "./ClothesCard";
 import { useNavigate } from "react-router-dom";
+import { fetchClothesData } from "./ClotheCardApi";
 
 export const Clothes = () => {
   const { scrollContainerRef, scroll } = useScroll();
@@ -10,26 +11,21 @@ export const Clothes = () => {
   const [ error , setError ] = useState(null);
   const [ loading , setLoading ] = useState(true);
   const navigate = useNavigate();
-
-        const handle = async () => {
-            try{
-                let url = 'https://api.escuelajs.co/api/v1/products/?price_min=20&price_max=1000&offset=0&limit=8';
-                let response = await fetch(url);
-                if(!response.ok){
-                    throw new Error(`Error occurred: ${response.status}`);
-                }
-                let data = await response.json();
-                console.log(data);
-                setClothes(data);
-                setLoading(false);
-            }catch(error){
-                console.error("Error fetching data:", error);
-                setError(error);
-            }
-        }
-        useEffect(() => {
-            handle();
-        },[])
+  
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetchClothesData();
+        setClothes(response);
+        setLoading(false);
+      } catch (error) {
+        setError(error);
+        setLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
+        
   return (
     <section className="home-card-container flex-column" id="clothes">
       <div className="home-card-title-container flex-column">

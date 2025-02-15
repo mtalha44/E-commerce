@@ -33,8 +33,8 @@ export const BestProducts = () => {
           // console.log(data.carts[1].products);
           // setBestProductData(data.carts[1].products);
           console.log(data)
-          const filteredProducts = data.filter( products => products.category.name === "Electronics" );
-          console.log(filteredProducts);
+          const filteredProducts = data.filter( products => products.category.name === "Shoes" );
+          // console.log(filteredProducts);
           setBestProductData(filteredProducts);
           setLoading(false);
       }catch(error){

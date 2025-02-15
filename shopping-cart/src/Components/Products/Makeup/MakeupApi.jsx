@@ -17,22 +17,23 @@
 //       }
 // };
 
-export const makeupApi = async () => {
-    try {
-      const url = "http://makeup-api.herokuapp.com/api/v1/products.json";
-      const response = await fetch(url);
+// export const makeupApi = async () => {
+//     try {
+//       const url = "http://makeup-api.herokuapp.com/api/v1/products.json";
+//       const response = await fetch(url);
   
-      if (!response.ok) {
-        throw new Error(`Error occurred: ${response.status}`);
-      }
+//       if (!response.ok) {
+//         throw new Error(`Error occurred: ${response.status}`);
+//       }
   
-      const data = await response.json();
-      return data.slice(0, 6);  // Returning only the first 6 items
-    } catch (error) {
-      console.error("Error fetching data:", error);
-      throw new Error("Failed to fetch makeup data");
-    }
-  };
+//       const data = await response.json();
+//       console.log(data);
+//       return data.slice(0, 6);  // Returning only the first 6 items
+//     } catch (error) {
+//       console.error("Error fetching data:", error);
+//       throw new Error("Failed to fetch makeup data");
+//     }
+// };
   
 
 

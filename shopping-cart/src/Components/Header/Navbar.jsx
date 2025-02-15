@@ -3,6 +3,7 @@ import { FaBasketShopping } from "react-icons/fa6";
 
 import "./Header.css"
 import { LuHeart, LuShoppingCart } from "react-icons/lu"
+
 export const Navbar = ({hidescroll}) => {
 
     return (

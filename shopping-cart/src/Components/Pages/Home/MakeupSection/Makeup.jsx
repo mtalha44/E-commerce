@@ -1,9 +1,11 @@
 import "../Ui/CardStyling.css"
-import { makeupData } from "./MakeupData"
+import { MakeupData } from "./MakeupData"
 import { MakeupCard } from "./MakeupCard"
 import { useScroll } from "../Ui/ScrollFunctionality";
 
 export const Makeup = () => {
+  const makeupData = MakeupData();
+
   const { scrollContainerRef, scroll } = useScroll();
   return (
     <section className="home-card-container flex-column" id="perfumes">
@@ -27,6 +29,7 @@ export const Makeup = () => {
         ) : (
           <p>No makeup found.</p>
         )}
+        
       </ul>
       <div className="wrapper see-more" onClick={() => navigate("/makeup_products")}>
         <div className="link_wrapper">

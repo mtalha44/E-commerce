@@ -6,7 +6,7 @@ export const MakeupCard = ({curdata}) => {
 
     return (
         <li className="home-card-item" key={curdata.id}>
-              <img src={curdata.image} alt={curdata.image_link} loading="lazy" />
+              <img src={curdata.api_featured_image} alt={curdata.image_link} loading="lazy" />
               <div className="home-card-item-details">
                 <h4 className="home-card-item-title" style={{ textAlign: "center" }}>{curdata.name}</h4>
                 <p style={{ textAlign: "center" }}>

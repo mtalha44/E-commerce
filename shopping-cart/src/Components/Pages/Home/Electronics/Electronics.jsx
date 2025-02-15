@@ -13,16 +13,18 @@ export const Electronics = () => {
 
         const handle = async () => {
             try{
-                let url = 'https://api.escuelajs.co/api/v1/products/?price_min=0&price_max=10000&offset=10&limit=8';
+                // let url = 'https://api.escuelajs.co/api/v1/products/?price_min=0&price_max=10000&offset=10&limit=8';
+                let url = 'https://api.escuelajs.co/api/v1/products/';
                 // let url = 'https://api.escuelajs.co/api/v1/products/?title=Clothes';
                 let response = await fetch(url);
                 if(!response.ok){
                     throw new Error(`Error occurred: ${response.status}`);
                 }
                 let data = await response.json();
-                // const filteredProducts = data.filter(product => product.category?.name === "Electronics");
                 console.log(data);
-                setElectronicsData(data);
+                const filteredProducts = data.filter(product => product.category?.name === "Electronics");
+                // console.log("filterData:",filteredProducts);
+                setElectronicsData(filteredProducts);
                 setLoading(false);
             }catch(error){
                 console.error("Error fetching data:", error);

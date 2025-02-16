@@ -3,7 +3,8 @@ import "../Ui/CardStyling.css"
 import { useScroll } from "../Ui/ScrollFunctionality";
 import { useNavigate } from "react-router-dom";
 import { BestProductCard } from "./BestProductCard";
-import { dummyProductData } from "../../../Products/DummyProduct/DummyProductData";
+import { fetchBestData } from "./BestProductApi";
+// import { dummyProductData } from "../../../Products/DummyProduct/DummyProductData";
 
 export const BestProducts = () => {
     const { scrollContainerRef, scroll } = useScroll();
@@ -12,39 +13,19 @@ export const BestProducts = () => {
     const [ loading , setLoading ] = useState(true);
     const navigate = useNavigate();  
 
-    //  const data = dummyProductData.products;
-    // //  console.log(bestProductData);
-    //  const bestProductData = data.filter( products => products.category=== 'smartphones');
-    //  console.log(bestProductData[0].title);
-    //  console.log(bestProductData[0].id);
-    //  console.log(bestProductData[0]);
-
-    const handle = async () => {
-      try{
-          // let url = 'https://dummyjson.com/carts';
-          // let url = 'https://dummyjson.com/products';
-          let url = 'https://api.escuelajs.co/api/v1/products';
-
-          let response = await fetch(url);
-          if(!response.ok){
-              throw new Error(`Error occurred: ${response.status}`);
-          }
-          let data = await response.json();
-          // console.log(data.carts[1].products);
-          // setBestProductData(data.carts[1].products);
-          console.log(data)
-          const filteredProducts = data.filter( products => products.category.name === "Shoes" );
-          // console.log(filteredProducts);
-          setBestProductData(filteredProducts);
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const data = await fetchBestData();
+          setBestProductData(data);
+        } catch (err) {
+          setError(err);
+        } finally {
           setLoading(false);
-      }catch(error){
-          console.error("Error fetching data:", error);
-          setError(error);
-      }
-  }
-  useEffect(() => {
-      handle();
-  },[])
+        }
+      };
+      fetchData();
+    }, []);
 
   return (
     <section className="home-card-container flex-column" id="clothes">
@@ -73,7 +54,7 @@ export const BestProducts = () => {
               ) : (
             <ul className="home-card-list" ref={scrollContainerRef}>
               {bestProductData && bestProductData.length > 0 ? (
-                bestProductData.map((curdata) => (
+                bestProductData.slice(0 , 8).map((curdata) => (
                   <BestProductCard key={curdata.id} curdata={curdata}/>
                 ))
               ) : (

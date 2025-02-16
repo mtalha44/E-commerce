@@ -1,8 +1,8 @@
 import { newDummyData } from "../../../Products/DummyProduct/DummyData";
 
-export const fetchClothesData = async () => {  
+export const fetchBestData = async () => {  
       const data = newDummyData;
-      const clothesData = data[4];
+      const clothesData = data[7];
       return clothesData.items;
 };
   

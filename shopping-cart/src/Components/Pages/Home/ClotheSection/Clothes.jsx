@@ -7,7 +7,7 @@ import { fetchClothesData } from "./ClotheCardApi";
 
 export const Clothes = () => {
   const { scrollContainerRef, scroll } = useScroll();
-  const [ clothesData, setClothes ] = useState([]);
+  const [ clothesData , setClothesData ] = useState(null);
   const [ error , setError ] = useState(null);
   const [ loading , setLoading ] = useState(true);
   const navigate = useNavigate();
@@ -15,11 +15,11 @@ export const Clothes = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetchClothesData();
-        setClothes(response);
-        setLoading(false);
-      } catch (error) {
-        setError(error);
+        const data = await fetchClothesData();
+        setClothesData(data);
+      } catch (err) {
+        setError(err);
+      } finally {
         setLoading(false);
       }
     };
@@ -52,7 +52,7 @@ export const Clothes = () => {
         ) : (
       <ul className="home-card-list" ref={scrollContainerRef}>
         {clothesData && clothesData.length > 0 ? (
-          clothesData.map((curdata) => (
+          clothesData.slice(0,8).map((curdata) => (
             <ClothesCard key={curdata.id} curdata={curdata}/>
           ))
         ) : (

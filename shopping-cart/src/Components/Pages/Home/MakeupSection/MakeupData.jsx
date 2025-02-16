@@ -1,8 +1,9 @@
 
-import { newDummyData } from "../../../Products/DummyProduct/newDummyData"
+import { DummyMakeupData } from "../../../Products/DummyProduct/MakeUPData";
 export const MakeupData = () =>  {
-   const data = newDummyData.map((cur , index) => cur.category === 'makeup' && cur)
-   const makeupdata = data[0].items;
-   return makeupdata.slice(0,8);
+   const data = DummyMakeupData;
+   const makeupData = DummyMakeupData.items;
+   // const filterdata = makeupData.filter( products => products.brand === "clinique" ); //good option
+   return makeupData.slice(0,8);
 }
   

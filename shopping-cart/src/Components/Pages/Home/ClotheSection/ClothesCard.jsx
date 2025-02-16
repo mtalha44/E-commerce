@@ -6,7 +6,7 @@ export const ClothesCard = ({curdata}) => {
 
     return (
         <li className="home-card-item" key={curdata.id}>
-              <img src={curdata.images?.[0]?.replace(/[\["\]]/g, '') || 'fallback-image-url.jpg'} alt={curdata.images?.[1] || 'Fallback Alt Text'} loading="lazy" />
+              <img src={curdata.images?.[0] || curdata.image } alt={curdata.images?.[1] } loading="lazy" />
               <div className="home-card-item-details">
                 <h4 className="home-card-item-title" style={{ textAlign: "center" }}>{curdata.title}</h4>
                 <p style={{ textAlign: "center" }}>

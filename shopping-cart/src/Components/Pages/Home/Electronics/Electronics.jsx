@@ -3,37 +3,30 @@ import "../Ui/CardStyling.css"
 import { useScroll } from "../Ui/ScrollFunctionality";
 import { ElectronicsCard } from "./ElectronicsCard";
 import { useNavigate } from "react-router-dom";
+import { fetchElectronicsData } from "./ElectronicsApiData";
 
 export const Electronics = () => {
+  
   const { scrollContainerRef, scroll } = useScroll();
   const [ electronicsData, setElectronicsData ] = useState([]);
   const [ error , setError ] = useState(null);
   const [ loading , setLoading ] = useState(true);
   const navigate = useNavigate();
 
-        const handle = async () => {
-            try{
-                // let url = 'https://api.escuelajs.co/api/v1/products/?price_min=0&price_max=10000&offset=10&limit=8';
-                let url = 'https://api.escuelajs.co/api/v1/products/';
-                // let url = 'https://api.escuelajs.co/api/v1/products/?title=Clothes';
-                let response = await fetch(url);
-                if(!response.ok){
-                    throw new Error(`Error occurred: ${response.status}`);
-                }
-                let data = await response.json();
-                console.log(data);
-                const filteredProducts = data.filter(product => product.category?.name === "Electronics");
-                // console.log("filterData:",filteredProducts);
-                setElectronicsData(filteredProducts);
-                setLoading(false);
-            }catch(error){
-                console.error("Error fetching data:", error);
-                setError(error);
-            }
+        const fetchData = async () => {
+          try {
+            const data = await fetchElectronicsData();
+            setElectronicsData(data);
+          } catch (err) {
+            setError(err);
+          } finally {
+            setLoading(false);
+          }
         }
         useEffect(() => {
-            handle();
+            fetchData();
         },[])
+
   return (
     <section className="home-card-container flex-column" id="clothes">
       <div className="home-card-title-container flex-column">
@@ -60,7 +53,7 @@ export const Electronics = () => {
         ) : (
       <ul className="home-card-list" ref={scrollContainerRef}>
         {electronicsData && electronicsData.length > 0 ? (
-          electronicsData.map((curdata) => (
+          electronicsData.slice(0,8).map((curdata) => (
             <ElectronicsCard key={curdata.id} curdata={curdata}/>
           ))
         ) : (

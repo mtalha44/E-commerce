@@ -2149,7 +2149,7 @@ export const newDummyData = [
       
       {
         "id": 16,
-        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "title": "Hooded Faux Leather Biker Jacket",
         "price": 29.95,
         "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
         "category": "women's clothing",
@@ -2181,7 +2181,7 @@ export const newDummyData = [
       },
       {
         "id": 17,
-        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "title": "Windbreaker Striped Climbing Raincoats",
         "price": 39.99,
         "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
         "category": "women's clothing",
@@ -2193,7 +2193,7 @@ export const newDummyData = [
       },
       {
         "id": 20,
-        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "title": "DANVOUY Womens T Shirt",
         "price": 12.99,
         "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
         "category": "women's clothing",
@@ -2244,7 +2244,7 @@ export const newDummyData = [
       },
       {
         "id": 15,
-        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "title": "Snowboard Jacket Winter ",
         "price": 56.99,
         "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
         "category": "women's clothing",
@@ -2665,7 +2665,7 @@ export const newDummyData = [
     items : [ 
       {
         "id": 18,
-        "title": "Sleek White & Orange Wireless Gaming Controller",
+        "title": "Wireless Gaming Controller",
         "price": 69,
         "description": "Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
         "images": [
@@ -2685,7 +2685,7 @@ export const newDummyData = [
       },
       {
         "id": 19,
-        "title": "Sleek Wireless Headphone & Inked Earbud Set",
+        "title": "Wireless Headphone & Inked Earbud",
         "price": 44,
         "description": "Experience the fusion of style and sound with this sophisticated audio set featuring a pair of sleek, white wireless headphones offering crystal-clear sound quality and over-ear comfort. The set also includes a set of durable earbuds, perfect for an on-the-go lifestyle. Elevate your music enjoyment with this versatile duo, designed to cater to all your listening needs.",
         "images": [
@@ -3068,7 +3068,7 @@ export const newDummyData = [
     }, 
     {
       "id": 20,
-      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "title": "DANVOUY T-Shirt Casual Cotton Short",
       "price": 12.99,
       "description": "95% Cotton, 5% Spandex. Features: Casual, Short Sleeve, Letter Print, V-Neck, Fashion Tees. The fabric is soft and has some stretch. Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring, Summer, Autumn, Winter.",
       "images": [

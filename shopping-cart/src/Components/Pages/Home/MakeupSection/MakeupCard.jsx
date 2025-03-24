@@ -8,8 +8,8 @@ export const MakeupCard = ({curdata}) => {
         <li className="home-card-item" key={curdata.id}>
               <img src={curdata.api_featured_image} alt={curdata.image_link} loading="lazy" />
               <div className="home-card-item-details">
-                <h4 className="home-card-item-title" style={{ textAlign: "center" }}>{curdata.name}</h4>
-                <p style={{ textAlign: "center" }}>
+                <h4 className="home-card-item-title" style={{ textAlign: "center" }}>{curdata.name} by {curdata.brand}</h4>
+                <p className = "card-price">
                   {curdata.price}$ <del>10.0$</del>
                 </p>
               </div>

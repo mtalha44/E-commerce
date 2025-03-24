@@ -5,6 +5,7 @@
     top: 0;
     left: 0;
     z-index: 10000;
+    border-bottom: 1px solid #ddd;
     overflow-x: hidden;
 }
 .social-tab{
@@ -248,9 +249,9 @@
     color: #58cbe6;
   }
   .dropdown-menu {
-    position: absolute;
-    top: 40px;
-    left: 0;
+    position: fixed;
+    /* top: 40px; */
+    /* left: 0; */
     background-color: white;
     border-top:2px solid #58cbe6;
     border-radius: 4px;

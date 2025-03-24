@@ -14,6 +14,13 @@
     box-sizing: border-box;
     width: 95%;
 }
+.card-price{
+  /* color : #58cbe6 ; */
+  text-align : center;
+  /* weight : bolder ;
+  font-weight : 800px; */
+
+}
 .home-card-list::-webkit-scrollbar {
   display: none; /* Hide scrollbar */
 }
@@ -21,21 +28,27 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-    background-color: white;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    border-bottom-right-radius: 12px;
-    border-bottom-left-radius: 12px;
-    padding-bottom: 2rem;
-    color:#222222;;
-    flex: 0 0 calc(20% - 2rem); /* 5 cards on large screens */
-  max-width: calc(20% - 2rem);
+      background-color: white;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      border-bottom-right-radius: 12px;
+      border-bottom-left-radius: 12px;
+      padding-bottom: 2rem;
+      color:#222222;;
+      flex: 0 0 calc(20% - 2rem); /* 5 cards on large screens */
+      max-width: calc(20% - 2rem);
 
 }
 
 .home-card-item img{
     width: 100%;
-    height: 250px;
+    height: 200px;
+    cursor : pointer ;
 }
+/* .home-card-item img :hover {
+  height : 250px;
+  width: 344px;
+  transition: all ease-in-out 0.5s;
+} */
 .add-to-cart{
     border: 1px solid black;
     height: 1.6rem;
@@ -66,8 +79,8 @@
 
 .home-card-item-title{
   font-size: 0.9rem;
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 /* See more button Styliing */

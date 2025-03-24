@@ -30,3 +30,8 @@ li{
     justify-content: center;
     align-items: center;
 }
+del{
+    /* color : black ; */
+    color : #58cbe6 ;
+
+}

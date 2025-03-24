@@ -5,7 +5,7 @@ export const ProductsBest3 = ({curdata}) => {
     return (            
                <li className="product-best3" key={curdata.id}>
                      <div  className="product-best3-img">
-                        <img src={curdata.images?.[0]?.replace(/[\["\]]/g, '') || 'fallback-image-url.jpg'} alt={curdata.images?.[1] || 'Fallback Alt Text'} loading="lazy" />
+                        <img src={curdata.images?.[0] || curdata.image || 'fallback-image-url.jpg'} alt={curdata.images?.[1] || 'Fallback Alt Text'} loading="lazy" />
                      </div>
                      <div className="product-best3-details">
                        <h4 className="product-best3-title" >{curdata.title}</h4>

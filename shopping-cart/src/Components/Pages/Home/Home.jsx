@@ -1,14 +1,13 @@
-import { useEffect } from "react"
 import { Clothes } from "./ClotheSection/Clothes"
 import { Electronics } from "./Electronics/Electronics"
 import "./Home.css"
-import { Jewlery } from "./JewlerySection/Jewlery"
 import { Makeup } from "./MakeupSection/Makeup"
 import { ProductCategories } from "./ProductCategories/ProductCategories"
 import { ImageSlider } from "./SlideGallery/SlideGallery"
 import { BestProducts } from "./BestSellingProducts/BestProducts"
 import { BrandLogoSlide } from "./BrandsLogo/BrandLogoSlide";
 import { AllProducts } from "./ALLProducts/AllProducts"
+import { ProgressChart } from "./ProgressChart/ProgressChart"
 export const Home = () => {
 
    return (
@@ -69,6 +68,9 @@ export const Home = () => {
         </div>
         <div className="all-product-section">
             <AllProducts/>
+        </div>
+        <div>
+            {/* <ProgressChart/> */}
         </div>
     </section>
     )

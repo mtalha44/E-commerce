@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -121,7 +121,6 @@
     }
     .cards{
         gap: 0.3rem;
-        /* width: 20px; */
     }
     .fa-cards{
         height: auto;
@@ -178,10 +177,10 @@
     }
 
 } */
-@media screen and (max-width : 465px) {
+/* @media screen and (max-width : 465px) {
     
 
-}
+} */
 /* @media screen and (max-width : 395px) {
     .footer-title h1, .middle-card-side h1, .middle-location-side h1, .right-side h1 {
         font-size: 0.6rem;
@@ -199,4 +198,257 @@
         height: auto;
         width: 15px;
     }
-} */
+} */ 
+
+/* Base Footer Container */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 30px;
+    background-color: white;
+    border-top: 1px solid #58cbe6;
+}
+
+/* LEFT SIDE: Logo and Description */
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 250px;  /* Grow and shrink, minimum width 250px */
+    padding: 10px;
+    gap: 10px;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.footer-title h1 {
+    color: #58cbe6;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.footer-description {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* MIDDLE CARD SIDE: Payment Icons */
+.middle-card-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 200px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.middle-card-side h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+.fa-cards {
+    width: 35px;
+    height: auto;
+}
+
+/* MIDDLE LOCATION SIDE: Address & Contact */
+.middle-location-side {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* flex: 1 1 200px; */
+    padding: 10px;
+    gap: 10px;
+}
+
+.middle-location-side h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    /* margin-left: 3rem; */
+    text-align: center;
+}
+
+.location-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 0.9rem;
+    color: #555;
+    align-items: center;
+}
+.location-details-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.flex-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.location-side-icon {
+    height: 20px;
+    width: auto;
+}
+
+/* RIGHT SIDE: App Downloads */
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 200px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.right-side h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+.app-store {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app-store img {
+    width: 120px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1040px) {
+    .left-side { order: 1;}
+    .middle-card-side { order: 2;}
+    .right-side { order: 3;}
+    .middle-location-side { order: 4;}
+
+    .middle-location-side {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .location-details {
+        flex-direction: row;
+        gap: 15px;
+    }
+    .location-details {
+    }
+}
+
+/* For devices with max-width: 795px */
+@media screen and (max-width: 795px) {
+    .footer-title h1,
+    .middle-card-side h1,
+    .middle-location-side h1,
+    .right-side h1 {
+        font-size: 1.3rem;
+    }
+    .footer-logo {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-description,
+    .location-details {
+        font-size: 0.8rem;
+    }
+    .location-side-icon {
+        height: 16px;
+    }
+    .fa-cards {
+        width: 28px;
+    }
+    .app-store img {
+        width: 90px;
+    }
+}
+
+/* For devices with max-width: 675px */
+@media screen and (max-width: 675px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-side,
+    .middle-card-side,
+    .middle-location-side,
+    .right-side {
+        align-items: center;
+        text-align: center;
+    }
+    .location-details {
+        align-items: center;
+    }
+}
+
+/* For devices with max-width: 595px */
+@media screen and (max-width: 595px) {
+    .footer-title h1,
+    .middle-card-side h1,
+    .middle-location-side h1,
+    .right-side h1 {
+        font-size: 1.1rem;
+    }
+    .footer-description,
+    .location-details {
+        font-size: 0.8rem;
+    }
+    .app-store img {
+        width: 80px;
+    }
+}
+
+/* For devices with max-width: 465px */
+@media screen and (max-width: 465px) {
+    .footer-title h1,
+    .middle-card-side h1,
+    .middle-location-side h1,
+    .right-side h1 {
+        font-size: 1rem;
+    }
+    .footer-logo {
+        width: 35px;
+        height: 35px;
+    }
+    .footer-description,
+    .location-details {
+        font-size: 0.75rem;
+    }
+    .app-store img {
+        width: 70px;
+    }
+}

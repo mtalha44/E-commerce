@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import { AppLayout } from "./Components/AppLayout/Applayout";
 import { Home } from "./Components/Pages/Home/Home";
+import { AllMakeup } from "./Components/Pages/Makeup/AllMakeup";
 
 function App() {
   const router = createBrowserRouter([
@@ -24,8 +25,8 @@ function App() {
           // loader : makeupApi,
         },
         {
-          path: "/shorts",
-          element: <h1>shorts</h1>,
+          path: "/makeup",
+          element: <AllMakeup/>,
         },
         {
           path: "/mixed",

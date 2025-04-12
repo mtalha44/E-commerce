@@ -1,0 +1,90 @@
+.AllMakeupPage{
+    margin-top: 3rem;
+}
+.AllMakeupPage-title h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.AllMakeupPage-title p{
+    font-size: 1rem;
+    text-align: center;
+    color: #666;
+}
+.home-card-list{
+    /* overflow-x: hidden;
+    scroll-behavior: none;
+    flex-wrap: wrap;
+    margin: auto; */
+}
+
+.AllMakeupPage-filters {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    width: 96%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Label styling for clarity and accessibility */
+  .filters-label {
+    font-size: 1rem;
+    font-weight: 200;
+    color: #222;
+  }
+  
+  /* Custom select styling */
+  .filters-select {
+    appearance: none;         /* Remove default styles for consistency across browsers */
+    font-size: 1rem;
+    color: #222;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D'10'%20height%3D'10'%20viewBox%3D'0%200%2010%2010'%20xmlns%3D'http%3A//www.w3.org/2000/svg'%3E%3Cpath%20d%3D'M0,0%20L5,6%20L10,0'%20fill%3D'none'%20stroke%3D'%23999'%20stroke-width%3D'1.5'%20/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Focus state to indicate active interaction */
+  .filters-select:focus {
+    outline: none;
+    border-color: #58cbe6;
+    box-shadow: 0 0 5px rgba(88, 203, 230, 0.5);
+  }
+  
+  /* Optionally, add a hover effect */
+  .filters-select:hover {
+    border-color: #58cbe6;
+  }
+ .home-card-item-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.home-card-item-title {
+    height: 1rem;
+}
+/* @media (max-width: 1115px) {
+    .home-card-item {
+        flex: 0 0 calc(22% - 1rem);
+        max-width: calc(25% - 1rem);
+    }
+}
+@media (max-width: 965px) {
+    .home-card-item {
+        flex: 0 0 calc(25% - 1rem);
+        max-width: calc(25% - 2rem);
+    }
+}
+@media (max-width: 885px) {
+    .home-card-item {
+        flex: 0 0 calc(30% - 1rem);
+        max-width: calc(30% - 1rem);
+    }
+} */

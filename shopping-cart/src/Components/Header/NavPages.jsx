@@ -68,8 +68,8 @@ useEffect(() => {
             <NavLink to="/perfumes" className="dropdown-item">
               Perfumes
             </NavLink>
-            <NavLink to="/shorts" className="dropdown-item">
-              Shorts
+            <NavLink to="/makeup" className="dropdown-item">
+              Makeup
             </NavLink>
             <NavLink to="/mixed" className="dropdown-item">
               Mixed

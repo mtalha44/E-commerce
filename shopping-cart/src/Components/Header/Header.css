@@ -398,11 +398,11 @@
         flex-wrap: wrap;
         width: 78%;
     }
-}
-@media screen and ( max-width : 500px ){
     .navbar-comp{
         margin-top: 5rem;
     }
+}
+@media screen and ( max-width : 500px ){
     .navbar-right-tab {
         width: 350px;
     }
@@ -416,9 +416,14 @@
         justify-content: center;
     }
 }
+@media screen and ( max-width: 385px ) {
+    .navbar-comp{
+        margin-top: 7rem;
+    }
+}
 @media screen and ( max-width: 330px ) {
     .navbar-comp{
-        margin-top: 4rem;
+        margin-top: 6rem;
     }
     .navbar-right-tab{
         width: 300px;

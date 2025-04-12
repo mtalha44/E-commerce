@@ -1,0 +1,41 @@
+/* Container for the scroll buttons positioned fixed on the page */
+.scroll-buttons-ud-container {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Base styling for the scroll button-uds */
+.scroll-button-ud {
+  background-color: #58cbe6;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover and focus effects for an enhanced interactive feel */
+.scroll-button-ud:hover,
+.scroll-button-ud:focus {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Optional: Apply custom transition when the buttons appear/disappear */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 0.7; transform: translateY(0); }
+}
+
+.scroll-button-ud {
+  animation: fadeIn 0.4s ease-out;
+}

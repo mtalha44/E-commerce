@@ -37,14 +37,14 @@ export const Footer = () => {
                <div className="middle-location-side">
                  <h1>Location</h1>
                  <div className="location-details">
-                     <div className="flex-row">
+                     <div className="location-details-items">
                         <FaLocationDot className="location-side-icon"/>
                         <div> 123 Main Street, City, Country</div>
                      </div>
-                    <div className="flex-row">            
+                    <div className="location-details-items">            
                         <FaSquarePhone className="location-side-icon"/><div> (+92) 3055997241</div>
                     </div> 
-                    <div className="flex-row">
+                    <div className="location-details-items">
                         <BiLogoGmail className="location-side-icon"/>
                      <div> mt4458649@gmail.com</div>
                     </div>

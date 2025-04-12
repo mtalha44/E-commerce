@@ -4,6 +4,7 @@ import { ScrollContextProvider } from "../Header/ScrollContext/ScrollContextNav"
 import { Deals } from "../Pages/Discount/Deals"
 import ScrollToTop from "./ScrollToTop"
 import { Footer } from "../Footer/MainFooter/footer"
+import ScrollDirectionButtons from "../ScrollFunctionality/ScrollButton"
 export const AppLayout = () => {
 
     return (
@@ -12,6 +13,7 @@ export const AppLayout = () => {
             <ScrollContextProvider>
                 <Header/>
                 <Deals/>
+                <ScrollDirectionButtons/>
                 <Outlet/>
                 <Footer/>
             </ScrollContextProvider>

@@ -1,4 +1,4 @@
-import { BiLogoGmail } from "react-icons/bi";
+import { BiLogoGmail, BiLogoLinkedin } from "react-icons/bi";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdOutgoingMail } from "react-icons/md";
 import { FaCcAmex, FaCcDinersClub, FaCcDiscover, FaCcJcb, FaCcMastercard, FaCcPaypal, FaCcStripe, FaCcVisa, FaSquarePhone } from "react-icons/fa6"
@@ -47,6 +47,10 @@ export const Footer = () => {
                     <div className="location-details-items">
                         <BiLogoGmail className="location-side-icon"/>
                      <div> mt4458649@gmail.com</div>
+                    </div>
+                    <div className="location-details-items">
+                        <BiLogoLinkedin className="location-side-icon"/>
+                     <div style={{ marginTop : "5px" }}> LinkhedIn Profile</div>
                     </div>
                  </div>
                </div>

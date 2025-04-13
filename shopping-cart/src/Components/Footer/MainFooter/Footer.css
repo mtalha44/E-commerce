@@ -264,7 +264,6 @@
 .middle-card-side h1 {
     font-size: 1.5rem;
     color: #333;
-    margin: 0;
 }
 
 .cards {
@@ -292,7 +291,6 @@
 .middle-location-side h1 {
     font-size: 1.5rem;
     color: #333;
-    margin: 0;
     /* margin-left: 3rem; */
     text-align: center;
 }
@@ -335,7 +333,6 @@
 .right-side h1 {
     font-size: 1.5rem;
     color: #333;
-    margin: 0;
     text-align: center;
 }
 
@@ -349,6 +346,13 @@
     width: 120px;
 }
 
+.left-side, 
+.middle-card-side,
+.right-side, 
+.middle-location-side, h1{
+    margin-top: 9px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1040px) {
@@ -358,20 +362,22 @@
     .middle-location-side { order: 4;}
 
     .middle-location-side {
+        width: 100%;
+        flex-direction: row;
+    }
+    .location-details {
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
         width: 100%;
+        gap: 5px;
     }
-    .location-details {
-        flex-direction: row;
-        gap: 15px;
-    }
-    .location-details {
+    .middle-location-side h1 {
+        display: none;
     }
 }
 
-/* For devices with max-width: 795px */
-@media screen and (max-width: 795px) {
+@media screen and (max-width : 865px) {
     .footer-title h1,
     .middle-card-side h1,
     .middle-location-side h1,
@@ -396,27 +402,53 @@
         width: 90px;
     }
 }
-
-/* For devices with max-width: 675px */
-@media screen and (max-width: 675px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
+/* For devices with max-width: 795px */
+@media screen and (max-width: 775px) {
+    .middle-card-side {
+        flex: 1 1 150px;
     }
-    .left-side,
-    .middle-card-side,
-    .middle-location-side,
+    .left-side {
+        flex:1 1 220px;
+    }
     .right-side {
-        align-items: center;
-        text-align: center;
-    }
-    .location-details {
-        align-items: center;
+        flex: 1 1 150px;
     }
 }
 
+/* For devices with max-width: 675px */
+@media screen and (max-width: 645px) {
+    .left-side { order: 1;}
+    .middle-card-side { order: 2;}
+    .right-side { order: 4;}
+    .middle-location-side { order: 3;}
+
+    .middle-location-side {
+        width: max-content;
+        flex-direction: column;
+    }
+    .location-details {
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: max-content;
+        gap: 5px;
+    }
+    .middle-location-side h1 {
+        display: block;
+    }   
+    .left-side {
+       flex: 1 1 250px;
+    }
+    .middle-location-side {
+        flex: 1 1 220px;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
 /* For devices with max-width: 595px */
-@media screen and (max-width: 595px) {
+/* @media screen and (max-width: 595px) {
     .footer-title h1,
     .middle-card-side h1,
     .middle-location-side h1,
@@ -430,10 +462,16 @@
     .app-store img {
         width: 80px;
     }
-}
+} */
+
+/* @media screen and (max-width : 500px) {
+    .left-side, .middle-card-side, .right-side, .middle-location-side{
+        width: 100%;
+    }
+} */
 
 /* For devices with max-width: 465px */
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 500px) {
     .footer-title h1,
     .middle-card-side h1,
     .middle-location-side h1,
@@ -450,5 +488,17 @@
     }
     .app-store img {
         width: 70px;
+    }
+    .app-store{
+        flex-direction: row;
+    }
+    .left-side{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 295px) {
+    .footer{
+        padding: 10px 5px;
     }
 }

@@ -29,7 +29,7 @@ export const AllMakeup = () => {
                         
 
             <div className="home-card-list-container">
-            <ul className="home-card-list"
+            <ul className="home-card-list product-card-list"
                 style={{ display: "flex", flexWrap: "wrap", margin: "auto" , overflow: "hidden" }}
             >
                 {allmakeupData && allmakeupData.length > 0 ? (

@@ -3,6 +3,7 @@ import "./App.css";
 import { AppLayout } from "./Components/AppLayout/Applayout";
 import { Home } from "./Components/Pages/Home/Home";
 import { AllMakeup } from "./Components/Pages/Makeup/AllMakeup";
+import { AllFurniture } from "./Components/Pages/Furniture/AllFurniture";
 
 function App() {
   const router = createBrowserRouter([
@@ -38,7 +39,7 @@ function App() {
         },
         {
           path: "/furniture",
-          element: <h1>furniture</h1>,
+          element: <AllFurniture/>,
         },
         {
           path: "/sports",

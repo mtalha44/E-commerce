@@ -1399,9 +1399,7 @@ export const DummyMakeupData = {
           "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/650/original/open-uri20171223-4-ml7tt0?1514062289",
           "product_colors": []
         },
-        
-       
-        
+                
         {
           "id": 383,
           "brand": "revlon",
@@ -1465,8 +1463,7 @@ export const DummyMakeupData = {
           "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/382/original/open-uri20171223-4-8avct4?1514063314",
           "product_colors": []
         },
-      
-        
+         
         {
           "id": 273,
           "brand": "maybelline",
@@ -1790,8 +1787,932 @@ export const DummyMakeupData = {
             }
           ]
         },
+        {
+          "id": 12,
+          "brand": "maybelline",
+          "name": "Maybelline Illegal Length Fiber Extensions Mascara",
+          "price": "11.49",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/086bd6bba51f630f60511cdc24c68096_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/maybelline-illegal-length-fiber_84357.html",
+          "website_link": "https://well.ca",
+          "description": "Build 4mm of measurable extensions! Features: Fiber-fix brush has 6 different contact points with each lash for optimal fiber placementBreakthrough formula contains fibers up to 4mm in lengthSealing formula stretches lashes and seals fibers to lashesWashable, also available in waterproof formula \nFor Best Results: Extend lashes upward with Fiber-Fix brush, from root to tip. \nOnly a few strokes necessary. For best results, do not let dry between \ncoats.  Removes easily with soap and water or Maybelline® Expert Eyes® \n100% Oil-Free Eye Makeup Remover.\n",
+          "rating": 4,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:10:59.587Z",
+          "updated_at": "2017-12-23T20:31:48.155Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/12.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/012/original/data?1514061108",
+          "product_colors": [
+            {
+              "hex_value": "#000000",
+              "colour_name": "Blackest Black "
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "brand": "maybelline",
+          "name": "Maybelline Volum' Express The Rocket Mascara",
+          "price": "10.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/0b04408a84154f14800e4c9477f8a924_ra,w158,h184_pa,w158,h184.png",
+          "product_link": "https://well.ca/products/maybelline-volum-express-the-rocket_84350.html",
+          "website_link": "https://well.ca",
+          "description": "Explosive Volume in Rocket Time! 8X Bigger, Smoother.\n\nNow, the most explosive, beautiful lashes ever! Maybelline's patented supersonic \nbrush with micro bristles loads on big, sleek volume instantly.\n\nThe fast-glide formula keeps lashes smooth. Zero clumps!",
+          "rating": null,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:10:58.856Z",
+          "updated_at": "2017-12-23T20:31:47.966Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/11.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/011/original/open-uri20171223-4-iiztlg?1514061107",
+          "product_colors": [
+            {
+              "hex_value": "#000000",
+              "colour_name": "Blackest Black "
+            },
+            {
+              "hex_value": "#202020",
+              "colour_name": "Very Black "
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "brand": "l'oreal",
+          "name": "L'Oreal Paris Voluminous Million Lashes Mascara",
+          "price": "13.29",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/7a372820b4a151ec62a6ce4261948421_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/loreal-paris-voluminous-million_28968.html",
+          "website_link": "https://well.ca",
+          "description": "For lashes that \nlook a million times multiplied and perfectly defined, there's only one \nmascara - Voluminous® Million Lashes™. The built-in Clean Sweep \nWiping System wipes the brush free of clumps leaving the perfect amount \nof mascara for an ultra-volumized clean lash look. The Millionizing \nBrush evenly thickens lashes from root to tip. The result? Lashes look \nso multiplied, so clean, it's like seeing millions. Features: \nOphthalmologist-tested and allergy-testedSuitable for sensitive eyes an contact len wearersClump-free.Fragrance-free\n                                                 ",
+          "rating": 4.6,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:10:57.744Z",
+          "updated_at": "2017-12-23T20:31:49.446Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/10.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/010/original/data?1514061109",
+          "product_colors": [
+            {
+              "hex_value": "#030001",
+              "colour_name": "Blackest Black "
+            },
+            {
+              "hex_value": "#231F20",
+              "colour_name": "Black "
+            },
+            {
+              "hex_value": "#4D2C00",
+              "colour_name": "Black Brown "
+            },
+            {
+              "hex_value": "#000000",
+              "colour_name": "Blackest Black "
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "brand": "maybelline",
+          "name": "Maybelline Great Lash Lots of Lashes Mascara",
+          "price": "7.79",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/dfaf77464a8cb52a1a8f2a15e8abf920_ra,w158,h184_pa,w158,h184.png",
+          "product_link": "https://well.ca/products/maybelline-great-lash-lots-of-lashes_50739.html",
+          "website_link": "https://well.ca",
+          "description": "Introducing a Great Lash innovation - Great Lash Lots of Lashes!The favourite Maybelline mascara now gives the look of more lashes than ever, thanks to the exclusive Great Little Grabber Brush. In just one swipe, the Grabber Brush easily reaches all lashes - even \nin the corners - for a multiplied lash look without the clumps. The result? Great lashes with lots of impact and not a lot of work.For best results: sweep brush from root to \ntip of lashes. Continue building volume until the desired lash look is \nachieved. Do not let dry between coats. Removes easily with soap and \nwater or eye makeup remover. \n                    ",
+          "rating": 4.2,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:10:56.475Z",
+          "updated_at": "2017-12-23T20:31:47.757Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/9.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/009/original/open-uri20171223-4-axycg0?1514061107",
+          "product_colors": [
+            {
+              "hex_value": "#000000",
+              "colour_name": "Blackest Black "
+            },
+            {
+              "hex_value": "#2d1e17",
+              "colour_name": "Brownish Black "
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "brand": "maybelline",
+          "name": "Maybelline Lash Stiletto Ultimate Length Mascara",
+          "price": "10.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/812b5ae27df9be983052063d52d7ab7a_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/maybelline-lash-stiletto-ultimate_17287.html",
+          "website_link": "https://well.ca",
+          "description": "The only mascara that does for lashes what stilettos do for legs.\n\n    The Grip & Extend brush grasps each lash and coats from every angle\n    Elastic formula stretches lashes for provocative length\n    Pro-Vitamin B-5 formula conditions and smoothes for black-patent shine\n    Contact lens safe and Ophthalmologist tested\n    Waterproof \n\n ",
+          "rating": 4,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:10:55.406Z",
+          "updated_at": "2017-12-23T20:31:47.606Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/8.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/008/original/data?1514061107",
+          "product_colors": [
+            {
+              "hex_value": "#0E0F11",
+              "colour_name": "Very Black "
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "brand": "maybelline",
+          "name": "Maybelline Volum'Express the Falsies Mascara",
+          "price": "9.79",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/af1f35f15ee64cc1003f1ccfc6451d71_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/maybelline-volumexpress-the-falsies_26311.html",
+          "website_link": "https://well.ca",
+          "description": "False lash glam in a tube, instantly!The Falsies Mascara delivers a false lash look, giving you a full set of voluminous, bold, fanned-out lashes and the appearance of no gaps from any angle.The Pro-Keratin Fiber enriched formula is designed to deliver immediate results, distributing volume and visible intensity to your lashes. The spoon-shaped brush helps fan lashes out.The Falsies Mascara is designed to give the appearance of no gaps and spaces. In a wink, lashes you didn’t even know you had look visibly thickened!",
+          "rating": 4,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:10:54.660Z",
+          "updated_at": "2017-12-23T20:31:47.473Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/7.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/007/original/data?1514061107",
+          "product_colors": [
+            {
+              "hex_value": "#0E0F11",
+              "colour_name": "Very Black "
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "brand": "covergirl",
+          "name": "CoverGirl Lashblast Volume Blasting Mascara ",
+          "price": "9.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/18790b1fce6ddd2c7c20e73ce964eadd_ra,w158,h184_pa,w158,h184.jpg",
+          "product_link": "https://well.ca/products/covergirl-lashblast-volume-blasting_74922.html",
+          "website_link": "https://well.ca",
+          "description": "Get a blast of lush, volumized lashes! LashBlast’s patented \nvolume-boosting formula and patent-pending brush are designed to max-out\n each and every lash, leaving you with the ultimate big lash look.Features: Instant volume and fullnessSmudge and smear-proofHypoallergenic and suitable for contact lens wearers",
+          "rating": 4.8,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:10:53.573Z",
+          "updated_at": "2017-12-23T20:31:47.348Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/6.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/006/original/data?1514061107",
+          "product_colors": []
+        },
         
-        
-                 
+        {
+          "id": 55,
+          "brand": "pure anada",
+          "name": "Pure Anada Petal Perfect Lipstick",
+          "price": "14.0",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/b66c56aeb8d078123cca4c9c64d17cb9_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/pure-anada-petal-perfect-lipstick_83247.html",
+          "website_link": "https://well.ca",
+          "description": "Pure Anada Petal Perfect Lipstick is a moisture intensive natural lipstick. Made with rich butters, plant oils, and waxes provide a smooth, creamy consistency. For a boost of shine, apply the coordinating Pure Anada Lip Gloss on top of your lipstick.Pure Anada Petal Perfect Lipstick is made with certified organic Rosehip Seed Oil which is known to repair dry, damaged skin and promote cell regeneration.  A perfect treatment to hydrate and smooth your lips!A berry-toned lip is a must have for the cool fall season and carries on great through the winter! Find more green fall beauty essentials on our blog, The Well.Shades: Ingredients: Ricinus Communis (Organic Castor Seed Oil), Rosa Canina (Organic Rosehip Seed Oil), Simmondsia Chinensis (Organic, cold pressed Jojoba Seed Oil), Butyrospermum Parkii Fruit (Unrefined, Organic, Shea Butter), Limnanthes Alba (Organic Meadowfoam Seed Oil), Euphorbia Cerifera(Candelilla Wax), Copernicia Cerifera(Carnauba) Wax, Mica, Iron Oxides, Tocopherol (Vitamin E), Citrus Tangerina (Organic Tangerine Essential Oil)Vegan, Gluten Free, Non-GMO, Dairy Free, Peanut Free, Natural",
+          "rating": 4.3,
+          "category": "lipstick",
+          "product_type": "lipstick",
+          "tag_list": [
+            "Natural",
+            "Gluten Free",
+            "Non-GMO",
+            "Peanut Free Product",
+            "Canadian"
+          ],
+          "created_at": "2016-10-01T18:24:26.466Z",
+          "updated_at": "2017-12-23T20:50:55.081Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/55.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/055/original/data?1514062255",
+          "product_colors": [
+            {
+              "hex_value": "#A16157",
+              "colour_name": "Autumn "
+            },
+            {
+              "hex_value": "#6D333A",
+              "colour_name": "Bordeaux Cherry "
+            },
+            {
+              "hex_value": "#B47965",
+              "colour_name": "Caramel "
+            },
+            {
+              "hex_value": "#df6163",
+              "colour_name": "Carnation (Rose) "
+            },
+            {
+              "hex_value": "#663125",
+              "colour_name": "Chocolate Kiss "
+            },
+            {
+              "hex_value": "#d09172",
+              "colour_name": "Grapefruit (Nude) "
+            },
+            {
+              "hex_value": "#9F455A",
+              "colour_name": "Hibiscus "
+            },
+            {
+              "hex_value": "#94514C",
+              "colour_name": "Morden's Blush "
+            },
+            {
+              "hex_value": "#B14F5B",
+              "colour_name": "Petunia "
+            },
+            {
+              "hex_value": "#a02d4b",
+              "colour_name": "Razzberry (Plum) "
+            },
+            {
+              "hex_value": "#971D28",
+              "colour_name": "Ruby "
+            },
+            {
+              "hex_value": "#c63e26",
+              "colour_name": "Sienna (Burnt Bronze Red) "
+            },
+            {
+              "hex_value": "#D94072",
+              "colour_name": "Strawberry Cream  "
+            },
+            {
+              "hex_value": "#de4b41",
+              "colour_name": "Tiger Lily (Bright Coral) "
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "brand": "mineral fusion",
+          "name": "Mineral Fusion Lengthening Mascara",
+          "price": "19.0",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/b8c71c36c73225905314a6ba0d5b5f6b_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/mineral-fusion-lengthening-mascara_91732.html",
+          "website_link": "https://well.ca",
+          "description": "Natural minerals darken, define and condition lashes in Mineral Fusion Lengthening Mascara formulation. This hypoallergenic mascara applies smoothly, and naturally nourishes and protects to promote maximum lash length, health and fullness. Free of Gluten, Parabens, Artificial Colors, Fragrances and Talc. Never-tested on animals. Hypoallergenic.Shade Range: Ingredients: Water, Beeswax, Stearic Acid, Copernicia Cerifera (Carnauba) Wax, Synthetic Wax, Butylene Glycol, C18-36 Acid Triglyceride, Hydroxyethylcellulose,  Sodium Hydroxide, Lecithin, Polysorbate 20, Sorbitan Laurate, Propylene Glycol Stearate, Propylene Glycol Laurate/Stearate, Phenoxyethanol, Ethylhexylglycerin, Iron Oxides (CI 77499). ",
+          "rating": 3.4,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [
+            "Gluten Free",
+            "Natural"
+          ],
+          "created_at": "2016-10-01T18:11:49.193Z",
+          "updated_at": "2017-12-23T20:31:53.342Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/54.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/054/original/data?1514061113",
+          "product_colors": [
+            {
+              "hex_value": "#000000",
+              "colour_name": "Graphite (Black) "
+            },
+            {
+              "hex_value": "#452319",
+              "colour_name": "Rock (Brown) "
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "brand": "covergirl",
+          "name": "CoverGirl Professional Mascara Curved Brush Very Black",
+          "price": "6.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c28f5756cc3f81f36baebfd753207c58_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/covergirl-professional-mascara_97246.html",
+          "website_link": "https://well.ca",
+          "description": "Volumize, lengthen and define like a pro! CoverGirl Professional 3-in-1 mascara for all day beautiful lashes. The curved brush finds lashes you didn't know you had, for a volumized, long, defined lash look without the clumps or blobs.Features:Volume + length + definition in one easy stepHypoallergenic and suitable for contact lens wearersLash volume without clumpsApplication Tips: Hold brush as close as possible to base of lashes, and wiggle it as you move it up through lashes.",
+          "rating": null,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:48.408Z",
+          "updated_at": "2017-12-23T20:31:53.214Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/53.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/053/original/data?1514061113",
+          "product_colors": []
+        },
+        {
+          "id": 52,
+          "brand": "covergirl",
+          "name": "CoverGirl Professional Mascara Curved Brush Black Brown",
+          "price": "6.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c7fe159f81fff4e0b8269782b20048ac_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/covergirl-professional-mascara_97245.html",
+          "website_link": "https://well.ca",
+          "description": "Volumize, lengthen and define like a pro! CoverGirl Professional 3-in-1 mascara for all day beautiful lashes. The curved brush finds lashes you didn't know you had, for a volumized, long, defined lash look without the clumps or blobs.Features:Volume + length + definition in one easy stepHypoallergenic and suitable for contact lens wearersLash volume without clumpsApplication Tips: Hold brush as close as possible to base of lashes, and wiggle it as you move it up through lashes.",
+          "rating": null,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:46.356Z",
+          "updated_at": "2017-12-23T20:31:52.960Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/52.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/052/original/data?1514061112",
+          "product_colors": []
+        },
+        {
+          "id": 51,
+          "brand": "l'oreal",
+          "name": "L'Oreal Paris Voluminous Butterfly Midnight Black Mascara",
+          "price": "13.49",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/cd24f2eacba5d03d916a924afaadbee5_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/loreal-paris-voluminous-butterfly_96670.html",
+          "website_link": "https://well.ca",
+          "description": "Stretch and extend your lashes like wings!  Introducing Voluminous \nButterfly Mascara, one of L'Oreal's most-exciting mascara innovations, yet. \nIts revolutionary Butterfly Brush™ with asymmetrical lash \nline shape extends and lifts outer corner lashes to give you a \nwinged-out effect, instantly volumizing lashes at the roots and \nstretching lashes outward. The unique Cocoon Fibers™ instantly wrap lashes in a soft, delicate veil to create silky, spectacular lashes that flutter.",
+          "rating": 4.7,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:45.325Z",
+          "updated_at": "2017-12-23T20:50:54.633Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/51.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/051/original/data?1514062254",
+          "product_colors": []
+        },
+        {
+          "id": 45,
+          "brand": "almay",
+          "name": "Almay Intense i-Color Volumizing Mascara",
+          "price": "10.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/65c2bc9cc03b915be08e68b8e4acb919_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/almay-intense-i-color-volumizing_84475.html",
+          "website_link": "https://well.ca",
+          "description": "Take your unique eye color to new limits with double the volume*, double the \nimpact. Expertly coordinated shades with eye-brightening crystals create\n multi-dimensional amplification. The lash enhancing brush with \nvolume-boosting grooves finds and flaunts every lash for big bold volume\n that won’t smudge or flake. *Achieved in one coat using 25 strokes ",
+          "rating": 4.3,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:37.939Z",
+          "updated_at": "2017-12-23T20:50:53.880Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/45.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/045/original/data?1514062253",
+          "product_colors": [
+            {
+              "hex_value": "#18191D",
+              "colour_name": "Midnight for hazel eyes   "
+            },
+            {
+              "hex_value": "#413736",
+              "colour_name": "Mocha for green eyes   "
+            },
+            {
+              "hex_value": "#3D303E",
+              "colour_name": "Plum for brown eyes   "
+            },
+            {
+              "hex_value": "#3B4356",
+              "colour_name": "Sapphire for blue eyes   "
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "brand": "covergirl",
+          "name": "CoverGirl LashBlast Full Lash Bloom Mascara Very Black (800)",
+          "price": "9.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/bd505b8626119f31924057a086e542bf_ra,w158,h184_pa,w158,h184.jpg",
+          "product_link": "https://well.ca/products/covergirl-lashblast-full-lash-bloom_103273.html",
+          "website_link": "https://well.ca",
+          "description": "With CoverGirl Full Lash Bloom Mascara, get exceptional lash fullness that's soft - even to the touch. With CoverGirl's petal-shaped brush and mousse formula with natural beeswax, lashes are never stiff or brittle. Perfect for everyday wear, Full Lash Bloom Mascara is also safe for contact lens wearers and is ophthalmologically tested. So bring out every last lash, and embrace you in full bloom!Features: Gives soft, full lashes that are never stiff or brittle.Petal shaped brush and soft, mousse formula, with natural beeswax, brings out every lashOphthalmologically tested and suitable for contact lens wearersIngredients: Water/Eau, Beeswax/Cire D'Abeille, Cetearyl Alcohol, Shellac, Copernicia Cerifera (Carnauba) Wax/Cire De Carnauba, Ceteareth-20, Glycerin, Tapioca Starch, Lecithin, Ethylhexylglycerin, Alcohol Denat., Phenoxyethanol, Benzyl Alcohol, Xanthan Gum, Ammonium Hydroxide, Sodium Gluconate May Contain: Titanium Dioxide, Iron Oxides",
+          "rating": 4,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:36.863Z",
+          "updated_at": "2017-12-23T20:50:53.772Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/44.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/044/original/data?1514062253",
+          "product_colors": []
+        },
+        {
+          "id": 43,
+          "brand": "covergirl",
+          "name": "CoverGirl Professional Super Thick Lash Mascara Very Black",
+          "price": "6.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/cb7bdcebdc593ba34c0f40b41a3ff44c_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/covergirl-professional-super-thick_97251.html",
+          "website_link": "https://well.ca",
+          "description": "Get beautiful, thick, high-impact lashes with COVERGIRL professional super thick lash mascara! The brush separates, defines, and reaches those little lashes so you get bold, defined lashes so easy, so beautiful!Features:Bold, defined volumeSeparates and defines lashesLasts all dayApplication Tips: Hold brush as close as possible to base of lashes, and wiggle it as you move it up through lashes.",
+          "rating": 5,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:36.172Z",
+          "updated_at": "2017-12-23T20:50:53.675Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/43.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/043/original/data?1514062253",
+          "product_colors": []
+        },
+        {
+          "id": 42,
+          "brand": "maybelline",
+          "name": "Maybelline Volum'Express Falsies Big Eyes Mascara",
+          "price": "12.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/a28e1387642c86f2d2e0cf446b2137aa_ra,w158,h184_pa,w158,h184.png",
+          "product_link": "https://well.ca/products/maybelline-volumexpress-falsies-big_78175.html",
+          "website_link": "https://well.ca",
+          "description": "2 brushes. 2x more impact!Now get bigger eyes with 360 degrees of false \nlash glam volume! Upper lashes get over-the-top glam with the upper \nbrush, while the lower brush grabs every tiny lower lash for a full \ncircle effect.For best results: Apply the Upper Brush against the top lid lashes and sweep from\n root to tip until a clean, voluminous look is achieved, followed by the\n lower lash line using the lower Micro Brush. Do not let dry between \ncoats. Removes easily with soap and water or with Maybelline® Clean \nExpress!™ Classic Eye Makeup Remover.\n",
+          "rating": 4.5,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:34.910Z",
+          "updated_at": "2017-12-23T20:50:53.492Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/42.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/042/original/open-uri20171223-4-b55ku9?1514062253",
+          "product_colors": [
+            {
+              "hex_value": "#000000",
+              "colour_name": "Blackest Black "
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "brand": "l'oreal",
+          "name": "L'Oreal Paris Voluminous Butterfly Mascara ",
+          "price": "13.49",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/3f10d95aaf893f1f0cfdd62b803f4212_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/loreal-paris-voluminous-butterfly_86375.html",
+          "website_link": "https://well.ca",
+          "description": "Stretch and extend your lashes like wings!  Introducing Voluminous \nButterfly Mascara, one of L'Oreal's most-exciting mascara innovations, yet. \nIts revolutionary Butterfly Brush™ with asymmetrical lash \nline shape extends and lifts outer corner lashes to give you a \nwinged-out effect, instantly volumizing lashes at the roots and \nstretching lashes outward. The unique Cocoon Fibers™ instantly wrap lashes in a soft, delicate veil to create silky, spectacular lashes that flutter.",
+          "rating": null,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:33.681Z",
+          "updated_at": "2017-12-23T20:50:53.374Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/41.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/041/original/data?1514062253",
+          "product_colors": [
+            {
+              "hex_value": "#000000",
+              "colour_name": "Blackest Black "
+            },
+            {
+              "hex_value": "#231F20",
+              "colour_name": "Black "
+            },
+            {
+              "hex_value": "#4D2C00",
+              "colour_name": "Black Brown "
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "brand": "covergirl",
+          "name": "CoverGirl Professional Waterproof Mascara Very Black",
+          "price": "6.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/d44d5338e9dfa2b5234a02d25af64a26_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/covergirl-professional-waterproof_97253.html",
+          "website_link": "https://well.ca",
+          "description": "Volumize, lengthen and define like a pro! CoverGirl Professional 3-in-1 mascara for all day beautiful lashes.Features:Volume + length + definition in one easy stepHypoallergenic and suitable for contact lens wearersWaterproofApplication Tips: Hold brush as close as possible to base of lashes, and wiggle it as you move it up through lashes.",
+          "rating": null,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:32.686Z",
+          "updated_at": "2017-12-23T20:50:53.262Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/40.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/040/original/data?1514062253",
+          "product_colors": []
+        },
+        {
+          "id": 39,
+          "brand": "physicians formula",
+          "name": "Physicians Formula Organic Wear CC Curl + Care Mascara ",
+          "price": "15.79",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/91995140b7749badeb17c41a7e035354_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/physicians-formula-organic-wear-cc_90023.html",
+          "website_link": "https://well.ca",
+          "description": "The ​1st ever 100% natural mascara with 70% organic ingredients combines the benefits of curl and care for eyelash curler results without the risk of lash loss.  Innovative formula features Physicians Formula's proprietary 100% Natural Origin CurlBooster™ Technology for 2 levels of CC Performance: Curl & Volumize Lashes Condition & Nourish LashesHypoallergenic. Fragrance Free. Gluten Free. Opthalmologist Approved. 100% Free of Harsh Chemicals. 100% Free of Synthetic Preservatives. 100% Free of Parabens. 100% Free of GMO's (Genetically Modified Organisms). 100% Free of Synthetic Colors. ",
+          "rating": 3.2,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [
+            "Natural",
+            "Gluten Free"
+          ],
+          "created_at": "2016-10-01T18:11:31.316Z",
+          "updated_at": "2017-12-23T20:50:53.163Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/39.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/039/original/data?1514062253",
+          "product_colors": [
+            {
+              "hex_value": "#1B1B1B",
+              "colour_name": "Black "
+            },
+            {
+              "hex_value": "#000000",
+              "colour_name": "Ultra Black "
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "brand": "marcelle",
+          "name": "Marcelle Ultimate Lash Mascara",
+          "price": "10.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/6f521dc72d362855a605105854a6a54f_ra,w158,h184_pa,w158,h184.jpg",
+          "product_link": "https://well.ca/products/marcelle-ultimate-lash-mascara_100275.html",
+          "website_link": "https://well.ca",
+          "description": "Fabulously full lashes for star-like appeal.Marcelle Ultimate Lash Mascara is all about transformation, from thin to plump, thick \nand full lashes. Specially designed wand is easy to use and applies just\n the right amount of mascara for maximum lash volume that is free of \nclumps and mess. Formulated with proteins and revitalizing ingredients \nto give lashes the royal treatment and last a long, long time without \nflaking. Strong, full lashes are guaranteed, plus it's hypoallergenic \nand perfume-free so it's perfect for everyone.",
+          "rating": 4.5,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [
+            "Canadian",
+            "Gluten Free"
+          ],
+          "created_at": "2016-10-01T18:11:30.120Z",
+          "updated_at": "2017-12-23T20:50:53.038Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/38.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/038/original/data?1514062252",
+          "product_colors": [
+            {
+              "hex_value": "#000000",
+              "colour_name": "Black "
+            },
+            {
+              "hex_value": "#403426",
+              "colour_name": "Dark Brown "
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "brand": "e.l.f.",
+          "name": "e.l.f. Studio Lengthening & Volumizing Mascara",
+          "price": "4.99",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/8797938435b2e7f995aa632d5f2b2ba2_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/elf-studio-lengthening_93445.html",
+          "website_link": "https://well.ca",
+          "description": "Achieve thicker, fuller, and longer lashes that are beautiful and \nnatural with e.l.f. Studio Lengthening & Volumizing Mascara. The enlarged brush coats your lashes evenly for an enhanced \nappeal.  The unique formula is clump free and quick drying so you can \nhave color that stays on all day with no smudging and no flaking.Ingredients: Aqua(Water), Caprylic/Caprictri Glycerides, Cera Carnauba (Carnauba) \nWax, Synthetic Beeswax, Styrene/Acrylates/Ammonium Methacrylate \nCopolymer, Stearic Acid, Cetyl Alcohol, Glyceryl,Stearate SE, PVP, \nTriethanolamine, Triacontanyl PVP, Hydroxyethyl Cellulose, Benzyl \nAlcohol, Methylchloroisothiazolinone, Methylisothiazolinone\n\nMay Contain: Iron Oxides(CI 77891, CI 77892, CI 77899)\n",
+          "rating": 4,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [
+            "Vegan"
+          ],
+          "created_at": "2016-10-01T18:11:29.378Z",
+          "updated_at": "2017-12-23T20:50:52.867Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/37.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/037/original/data?1514062252",
+          "product_colors": []
+        },
+        {
+          "id": 36,
+          "brand": "wet n wild",
+          "name": "Wet n Wild Mega Protein Mascara",
+          "price": "3.49",
+          "price_sign": null,
+          "currency": null,
+          "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/8b5c28e396504d8fb54c91c791f36749_ra,w158,h184_pa,w158,h184.jpeg",
+          "product_link": "https://well.ca/products/wet-n-wild-mega-protein-mascara_82250.html",
+          "website_link": "https://well.ca",
+          "description": "Wet n Wild Mega Protein Mascara is a nourishing mascara conditions lashes with soy and wheat proteins and acai oil for healthier, fuller lashes.",
+          "rating": 5,
+          "category": null,
+          "product_type": "mascara",
+          "tag_list": [],
+          "created_at": "2016-10-01T18:11:28.742Z",
+          "updated_at": "2017-12-23T20:50:52.703Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/36.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/036/original/data?1514062252",
+          "product_colors": []
+        },      
+        {
+          "id": 687,
+          "brand": "dior",
+          "name": "Diorskin Rosy Glow",
+          "price": "32.0",
+          "price_sign": "£",
+          "currency": "GBP",
+          "image_link": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715100.jpg",
+          "product_link": "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/blush/pr-blush-y0715100_f071510001-healthy-glow-booster-blush.html",
+          "website_link": "https://www.dior.com",
+          "description": "Rosy Glow reacts to the moisture in the skin to bring a delicate flush of colour to the cheeks. The fresh and luminous color upon application develops into a rosy blush to suit each individual complexion for an incredibly natural, custom healthy glow that lasts all day.",
+          "rating": null,
+          "category": null,
+          "product_type": "blush",
+          "tag_list": [],
+          "created_at": "2017-12-03T23:22:37.243Z",
+          "updated_at": "2017-12-23T20:58:49.221Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/687.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/687/original/open-uri20171223-4-vrtkii?1514062729",
+          "product_colors": [
+            {
+              "hex_value": "#F1C0D7",
+              "colour_name": "001 Petal"
+            }
+          ]
+        },
+        {
+          "id": 686,
+          "brand": "dior",
+          "name": "DIORBLUSH PRECIOUS ROCKS - Christmas 2017 Limited Edition",
+          "price": "0.0",
+          "price_sign": "£",
+          "currency": "GBP",
+          "image_link": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715928_F071592864.jpg",
+          "product_link": "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/look-exclusives/precious-rocks-collection/pr-preciousrockslook-y0715928_f071592864-vibrant-colour-powderblush.html",
+          "website_link": "https://www.dior.com",
+          "description": "The new limited-edition Diorblush showcases every facet of the Precious Rocks collection. Printed with a prismatic motif that reflects that of a precious stone, its sheer, peach colour blends seamlessly with your skin to deliver a fresh, crystal-clear complexion.",
+          "rating": null,
+          "category": null,
+          "product_type": "blush",
+          "tag_list": [],
+          "created_at": "2017-12-03T23:22:36.467Z",
+          "updated_at": "2017-12-23T20:58:48.998Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/686.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/686/original/open-uri20171223-4-msf54n?1514062728",
+          "product_colors": [
+            {
+              "hex_value": "#EF8687",
+              "colour_name": "864 Precious Rocks"
+            }
+          ]
+        },
+        {
+          "id": 685,
+          "brand": "dior",
+          "name": "Diorblush Sculpt",
+          "price": "32.5",
+          "price_sign": "£",
+          "currency": "GBP",
+          "image_link": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0716250.jpg",
+          "product_link": "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/blush/pr-blush-y0716250_f071625001-professional-contouring-powder-blush.html",
+          "website_link": "https://www.dior.com",
+          "description": "The first contouring blush by Dior, Diorblush Sculpt allows you to easily redefine the face’s structure and volumes with the precision of a makeup artist thanks to its two contrasting shades.",
+          "rating": null,
+          "category": null,
+          "product_type": "blush",
+          "tag_list": [],
+          "created_at": "2017-12-03T23:22:35.267Z",
+          "updated_at": "2017-12-23T20:58:48.814Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/685.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/685/original/open-uri20171223-4-1p1tlsw?1514062728",
+          "product_colors": [
+            {
+              "hex_value": "#DA9A8E",
+              "colour_name": "001 Pink Shape"
+            },
+            {
+              "hex_value": "#D6A086",
+              "colour_name": "002 Coral Shape"
+            },
+            {
+              "hex_value": "#D3A895",
+              "colour_name": "003 Beige Contour"
+            },
+            {
+              "hex_value": "#C69E8A",
+              "colour_name": "004 Brown Contour"
+            }
+          ]
+        },
+        {
+          "id": 684,
+          "brand": "dior",
+          "name": "Diorblush",
+          "price": "32.5",
+          "price_sign": "£",
+          "currency": "GBP",
+          "image_link": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0715255.jpg",
+          "product_link": "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/blush/pr-blush-y0715255_f071525556-vibrant-colour-powder-blush.html",
+          "website_link": "https://www.dior.com",
+          "description": "The iconic blush from the House of Dior: the new colour accessory for face makeup with style.",
+          "rating": null,
+          "category": null,
+          "product_type": "blush",
+          "tag_list": [],
+          "created_at": "2017-12-03T23:22:32.065Z",
+          "updated_at": "2017-12-23T20:58:48.374Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/684.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/684/original/open-uri20171223-4-14490w0?1514062728",
+          "product_colors": [
+            {
+              "hex_value": "#EA8166",
+              "colour_name": "556 Amber Show"
+            },
+            {
+              "hex_value": "#E17D70",
+              "colour_name": "553 Cocktail Peach"
+            },
+            {
+              "hex_value": "#AB6F70",
+              "colour_name": "566 Brown Milly"
+            },
+            {
+              "hex_value": "#EF7A5B",
+              "colour_name": "586 Orange Riviera"
+            },
+            {
+              "hex_value": "#ED7167",
+              "colour_name": "676 Coral Cruise"
+            },
+            {
+              "hex_value": "#E6A397",
+              "colour_name": "746 Beige Nude"
+            },
+            {
+              "hex_value": "#EB8881",
+              "colour_name": "756 Rose Chérie"
+            },
+            {
+              "hex_value": "#F09BA1",
+              "colour_name": "829 Miss Pink"
+            },
+            {
+              "hex_value": "#C17E6A",
+              "colour_name": "849 Mimi Bronze"
+            },
+            {
+              "hex_value": "#EB81A5",
+              "colour_name": "861 Rose Darling"
+            },
+            {
+              "hex_value": "#EF7B88",
+              "colour_name": "876 Happy Cherry"
+            },
+            {
+              "hex_value": "#EB5E6D",
+              "colour_name": "889 New Red"
+            },
+            {
+              "hex_value": "#EB5C54",
+              "colour_name": "896 Redissimo"
+            },
+            {
+              "hex_value": "#D88D8C",
+              "colour_name": "939 Rose Libertine"
+            }
+          ]
+        },
+        {
+          "id": 683,
+          "brand": "dior",
+          "name": "Diorskin Nude Air Tan",
+          "price": "36.5",
+          "price_sign": "£",
+          "currency": "GBP",
+          "image_link": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0712400.jpg",
+          "product_link": "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/healthy-glow-makeup/pr-sunmakeup-y0712400_f071240001-healthy-glow-sun-powder.html",
+          "website_link": "https://www.dior.com",
+          "description": "Diorskin Nude Air bronzing powders warm the original skin tone and let the skin breathe for the continual radiant beauty of a sun-kissed healthy glow. Choose the perfect shade of tan, in matte or satiny.",
+          "rating": null,
+          "category": null,
+          "product_type": "bronzer",
+          "tag_list": [],
+          "created_at": "2017-12-03T23:22:30.765Z",
+          "updated_at": "2017-12-23T20:58:49.791Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/683.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/683/original/open-uri20171223-4-1nzl361?1514062729",
+          "product_colors": [
+            {
+              "hex_value": "#CD9163",
+              "colour_name": "001 Golden Honey"
+            },
+            {
+              "hex_value": "#CD9068",
+              "colour_name": "002 Amber"
+            },
+            {
+              "hex_value": "#D8996C",
+              "colour_name": "003 Cinnamon"
+            },
+            {
+              "hex_value": "#B17252",
+              "colour_name": "035 Matte Cinnamon"
+            }
+          ]
+        },
+        {
+          "id": 682,
+          "brand": "dior",
+          "name": "Diorskin Nude Air Glow Powder",
+          "price": "39.5",
+          "price_sign": "£",
+          "currency": "GBP",
+          "image_link": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_y0778920.jpg",
+          "product_link": "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/powders/pr-powders-y0778920_f077892001-healthy-glow-radiance-powder.html",
+          "website_link": "https://www.dior.com",
+          "description": "A precursor in the art of natural, for beauty that grows more radiant with each day, Dior broadens its nude makeup expertise with the innovation of Diorskin Nude Air Glow Powder: a luminous powder as weightless and beneficial as a breath of fresh air that revives and illuminates the complexion's original colour and lets the skin breathe for a continuously healthy glow.",
+          "rating": null,
+          "category": "powder",
+          "product_type": "foundation",
+          "tag_list": [],
+          "created_at": "2017-12-03T23:22:29.631Z",
+          "updated_at": "2017-12-23T20:58:48.109Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/682.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/682/original/open-uri20171223-4-1q5xbnc?1514062728",
+          "product_colors": [
+            {
+              "hex_value": "#D59A72",
+              "colour_name": "001 Fresh Tan"
+            },
+            {
+              "hex_value": "#D69D7B",
+              "colour_name": "002 Fresh Light"
+            },
+            {
+              "hex_value": "#DB9781",
+              "colour_name": "004 Warm Light"
+            }
+          ]
+        },
+        {
+          "id": 681,
+          "brand": "dior",
+          "name": "Diorskin Nude Air loose powder",
+          "price": "36.5",
+          "price_sign": "£",
+          "currency": "GBP",
+          "image_link": "https://www.dior.com/beauty/version-5.1432748111912/resize-image/ep/0/390/100/0/packshots%252FPDG_Y0720350.jpg",
+          "product_link": "https://www.dior.com/beauty/en_gb/fragrance-beauty/makeup/face/powders/pr-powders-y0720350_f072035010-healthy-glow-invisible-loose-powder.html",
+          "website_link": "https://www.dior.com",
+          "description": "The ultimate finishing touch, impressively lightweight Diorskin Nude Air loose and compact powders maintain the illusion of a fresh and radiant face.",
+          "rating": null,
+          "category": "powder",
+          "product_type": "foundation",
+          "tag_list": [],
+          "created_at": "2017-12-03T23:22:28.576Z",
+          "updated_at": "2017-12-23T20:58:47.830Z",
+          "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/681.json",
+          "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/681/original/open-uri20171223-4-1p8wv?1514062727",
+          "product_colors": [
+            {
+              "hex_value": "#FEE6CF",
+              "colour_name": "010 Ivory"
+            },
+            {
+              "hex_value": "#FCDEDD",
+              "colour_name": "012 Pink"
+            },
+            {
+              "hex_value": "#EFCEB0",
+              "colour_name": "020 Light Beige"
+            },
+            {
+              "hex_value": "#E8BA92",
+              "colour_name": "030 Medium Beige"
+            }
+          ]
+        },   
     ]
 };

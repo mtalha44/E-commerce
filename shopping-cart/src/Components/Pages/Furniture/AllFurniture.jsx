@@ -1,21 +1,35 @@
-import { useState } from "react";
-import { AllMakeupData } from "./AllDummyMakeupData"
-import { AllMakeupCards } from "./AllMakeupCard";
+import { useEffect, useState } from "react";
+import { AllFurnitureCards  } from "./AllFurnitureCard"
+import { fetchFurnitureData } from "./AllDummyFurnitureData"
+import "../Ui/styling.css"
 import "../Home/Ui/CardStyling.css"
-import "../Ui/styling.css";
 
-export const AllMakeup = () => {
+export const AllFurniture = () => {
   const [ controlItems , setControlItems ] = useState(25);
-    const allmakeupData = AllMakeupData();
+  const [ allFurnitureData , setFurnitureData ] = useState([]);
+
+    const fetchData = async () => {
+              try {
+                const data = await fetchFurnitureData();
+                setFurnitureData(data);
+              } catch (err) {
+                // setError(err);
+                console.log(err);
+              } finally {
+                // setLoading(false);
+                console.log("");
+              }
+            }
+            useEffect(() => {
+                fetchData();
+            },[])
+
     return (
         <>
-            {/* <div className="SideBar">
-              <SideBar/>
-            </div> */}
         <section className="AllProductPage">
             <div className="AllProductPage-title">
-                <h1>Beauty and Makeup Products</h1>
-                <p>Discover a wide range of top-quality beauty and makeup products from trusted brands.</p>
+                <h1>Elegant and Functional Furniture</h1>
+                <p>Transform your space with stylish, high-quality furniture pieces designed for comfort, durability, and timeless beauty.</p>
             </div>
             <div className="AllProductPage-filters">
               <label htmlFor="sort-options" className="filters-label">
@@ -34,9 +48,9 @@ export const AllMakeup = () => {
             <ul className="home-card-list product-card-list"
                 style={{ display: "flex", flexWrap: "wrap", margin: "auto" , overflow: "hidden" }}
             >
-                {allmakeupData && allmakeupData.length > 0 ? (
-                  allmakeupData.slice(0 , controlItems ).map((curdata) => (
-                    <AllMakeupCards key={curdata.id} curdata={curdata}/>
+                {allFurnitureData && allFurnitureData.length > 0 ? (
+                  allFurnitureData.slice(0 , controlItems ).map((curdata) => (
+                    <AllFurnitureCards key={curdata.id} curdata={curdata}/>
                   ))
                  ) : (
                    <p>No makeup found.</p>

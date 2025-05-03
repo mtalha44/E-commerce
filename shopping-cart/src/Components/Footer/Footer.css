@@ -141,10 +141,10 @@
     width: 120px;
 }
 
-.left-side, 
-.middle-card-side,
-.right-side, 
-.middle-location-side, h1{
+.left-side h1, 
+.middle-card-side h1,
+.right-side h1, 
+.middle-location-side h1{
     margin-top: 9px;
 }
 

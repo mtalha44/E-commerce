@@ -165,6 +165,9 @@
     padding-left: 10px;
     width: 75%;
 }
+#search-products:focus{
+    outline: none;
+}
 .right-tab-cart-details{
     gap: 20px;
 }
@@ -442,6 +445,7 @@
     }
     .search-input {
         height: 30px;
+
     }
     .navbar-right-tab {
         width: 250px;

@@ -4,22 +4,16 @@ import "../Home/Ui/CardStyling.css"
 import "../Ui/styling.css"
 import { useNavigate } from "react-router-dom";
 
-export const AllMakeupCards = ({curdata}) => {
+export const AllFurnitureCards = ({curdata}) => {
     const navigate = useNavigate();
-    const getShortName = (name, maxWords = 2) => {
-        const words = name.split(' ');
-        if (words.length <= maxWords) return name;
-        return words.slice(0, maxWords).join(' ');
-      };
       
     return (
         <li 
             className="home-card-item product-card-item" key={curdata.id} >
-              <img src={curdata.api_featured_image} alt={curdata.image_link} loading="lazy" onClick={() => navigate(`/detail-product/${curdata.id}`)}/>
+              <img src={curdata.images[0]} alt={curdata.images[1] || curdata.images[3]} loading="lazy" onClick={() => navigate(`/detail-product/${curdata.id}`)}/>
               <div className="home-card-item-details product-card-item-details">
-                {/* <h4 className="home-card-item-title" style={{ textAlign: "center" }}>{curdata.name} by {curdata.brand}</h4> */}
                 <h4 className="home-card-item-title product-card-item-title" style={{ textAlign: "center" }}>
-                  {getShortName(curdata.name)} by {curdata.brand}
+                  {curdata.title}
                 </h4>
                 <p className = "card-price product-card-price">
                   {curdata.price}$ <del>10.0$</del>

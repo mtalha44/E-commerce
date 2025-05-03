@@ -820,6 +820,1158 @@ export const newDummyData = [
         ],
         "thumbnail": "https://i.imgur.com/4lTaHfF.jpeg"
       },
+        {
+          "id": 28,
+          "title": "Sleek Modern Leather Sofa",
+          "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+          "category": "furniture",
+          "price": 53,
+          "discountPercentage": 12.5,
+          "rating": 4.6,
+          "stock": 15,
+          "tags": ["furniture", "sofa", "modern"],
+          "brand": "Luxury Living",
+          "sku": "SLMS-1023",
+          "weight": 40,
+          "dimensions": { "width": 80, "height": 35, "depth": 30 },
+          "warrantyInformation": "1-year manufacturer warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Looks amazing in my living room!", "date": "2025-02-14", "reviewerName": "Daniel Scott" },
+            { "rating": 4, "comment": "Comfortable and stylish.", "date": "2025-02-14", "reviewerName": "Sophia Reynolds" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "1234567890123" },
+          "images": [
+            "https://i.imgur.com/Qphac99.jpeg",
+            "https://i.imgur.com/dJjpEgG.jpeg",
+            "https://i.imgur.com/MxJyADq.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/Qphac99.jpeg"
+        },
+        {
+          "id": 29,
+          "title": "Mid-Century Modern Wooden Dining Table",
+          "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+          "category": "furniture",
+          "price": 24,
+          "discountPercentage": 10,
+          "rating": 4.3,
+          "stock": 30,
+          "tags": ["furniture", "dining table", "mid-century"],
+          "brand": "Timeless Woodworks",
+          "sku": "MCMDT-9876",
+          "weight": 25,
+          "dimensions": { "width": 60, "height": 30, "depth": 35 },
+          "warrantyInformation": "6-month limited warranty",
+          "shippingInformation": "Ships within 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 4, "comment": "A beautiful dining table, very sturdy!", "date": "2025-02-14", "reviewerName": "Emma Johnson" },
+            { "rating": 3, "comment": "Expected it to be a bit larger.", "date": "2025-02-14", "reviewerName": "Michael Brown" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "9876543210987" },
+          "images": [
+            "https://i.imgur.com/DMQHGA0.jpeg",
+            "https://i.imgur.com/qrs9QBg.jpeg",
+            "https://i.imgur.com/XVp8T1I.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/DMQHGA0.jpeg"
+        },
+        {
+          "id": 30,
+          "title": "Elegant Golden-Base Stone Top Dining Table",
+          "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+          "category": "furniture",
+          "price": 66,
+          "discountPercentage": 15,
+          "rating": 4.7,
+          "stock": 12,
+          "tags": ["furniture", "dining table", "luxury"],
+          "brand": "Royal Interiors",
+          "sku": "EGBST-7654",
+          "weight": 50,
+          "dimensions": { "width": 55, "height": 32, "depth": 55 },
+          "warrantyInformation": "1-year limited warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Absolutely stunning and high quality!", "date": "2025-02-14", "reviewerName": "Olivia Martinez" },
+            { "rating": 4, "comment": "A luxurious addition to my home.", "date": "2025-02-14", "reviewerName": "Liam Anderson" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "6789012345678" },
+          "images": [
+            "https://i.imgur.com/NWIJKUj.jpeg",
+            "https://i.imgur.com/Jn1YSLk.jpeg",
+            "https://i.imgur.com/VNZRvx5.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/NWIJKUj.jpeg"
+        },      
+      
+      {
+        "id": 31,
+        "title": "Modern Elegance Teal Armchair",
+        "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+        "category": "furniture",
+        "price": 25.0,
+        "discountPercentage": 10.5,
+        "rating": 4.6,
+        "stock": 12,
+        "tags": [
+          "furniture",
+          "armchair",
+          "modern"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "ARMC001",
+        "weight": 18,
+        "dimensions": {
+          "width": 32.5,
+          "height": 40.0,
+          "depth": 30.0
+        },
+        "warrantyInformation": "1-year limited warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Absolutely love this chair! Comfortable and stylish.",
+            "date": "2025-02-10T12:34:56.000Z",
+            "reviewerName": "Alice Brown",
+            "reviewerEmail": "alice.brown@example.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890123",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/6wkyyIN.jpeg",
+          "https://i.imgur.com/Ald3Rec.jpeg",
+          "https://i.imgur.com/dIqo03c.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/6wkyyIN.jpeg"
+      },
+      {
+        "id": 32,
+        "title": "Elegant Solid Wood Dining Table",
+        "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+        "category": "furniture",
+        "price": 67.0,
+        "discountPercentage": 8.0,
+        "rating": 4.7,
+        "stock": 8,
+        "tags": [
+          "furniture",
+          "dining table",
+          "solid wood"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "DNTB002",
+        "weight": 50,
+        "dimensions": {
+          "width": 72.0,
+          "height": 30.0,
+          "depth": 36.0
+        },
+        "warrantyInformation": "2-year limited warranty",
+        "shippingInformation": "Ships in 5-7 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Perfect dining table for our family dinners!",
+            "date": "2025-02-12T14:22:30.000Z",
+            "reviewerName": "John Smith",
+            "reviewerEmail": "john.smith@example.com"
+          }
+        ],
+        "returnPolicy": "60-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890124",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/4lTaHfF.jpeg",
+          "https://i.imgur.com/JktHE1C.jpeg",
+          "https://i.imgur.com/cQeXQMi.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/4lTaHfF.jpeg"
+      },
+        {
+          "id": 28,
+          "title": "Sleek Modern Leather Sofa",
+          "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+          "category": "furniture",
+          "price": 53,
+          "discountPercentage": 12.5,
+          "rating": 4.6,
+          "stock": 15,
+          "tags": ["furniture", "sofa", "modern"],
+          "brand": "Luxury Living",
+          "sku": "SLMS-1023",
+          "weight": 40,
+          "dimensions": { "width": 80, "height": 35, "depth": 30 },
+          "warrantyInformation": "1-year manufacturer warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Looks amazing in my living room!", "date": "2025-02-14", "reviewerName": "Daniel Scott" },
+            { "rating": 4, "comment": "Comfortable and stylish.", "date": "2025-02-14", "reviewerName": "Sophia Reynolds" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "1234567890123" },
+          "images": [
+            "https://i.imgur.com/Qphac99.jpeg",
+            "https://i.imgur.com/dJjpEgG.jpeg",
+            "https://i.imgur.com/MxJyADq.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/Qphac99.jpeg"
+        },
+        {
+          "id": 29,
+          "title": "Mid-Century Modern Wooden Dining Table",
+          "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+          "category": "furniture",
+          "price": 24,
+          "discountPercentage": 10,
+          "rating": 4.3,
+          "stock": 30,
+          "tags": ["furniture", "dining table", "mid-century"],
+          "brand": "Timeless Woodworks",
+          "sku": "MCMDT-9876",
+          "weight": 25,
+          "dimensions": { "width": 60, "height": 30, "depth": 35 },
+          "warrantyInformation": "6-month limited warranty",
+          "shippingInformation": "Ships within 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 4, "comment": "A beautiful dining table, very sturdy!", "date": "2025-02-14", "reviewerName": "Emma Johnson" },
+            { "rating": 3, "comment": "Expected it to be a bit larger.", "date": "2025-02-14", "reviewerName": "Michael Brown" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "9876543210987" },
+          "images": [
+            "https://i.imgur.com/DMQHGA0.jpeg",
+            "https://i.imgur.com/qrs9QBg.jpeg",
+            "https://i.imgur.com/XVp8T1I.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/DMQHGA0.jpeg"
+        },
+        {
+          "id": 30,
+          "title": "Elegant Golden-Base Stone Top Dining Table",
+          "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+          "category": "furniture",
+          "price": 66,
+          "discountPercentage": 15,
+          "rating": 4.7,
+          "stock": 12,
+          "tags": ["furniture", "dining table", "luxury"],
+          "brand": "Royal Interiors",
+          "sku": "EGBST-7654",
+          "weight": 50,
+          "dimensions": { "width": 55, "height": 32, "depth": 55 },
+          "warrantyInformation": "1-year limited warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Absolutely stunning and high quality!", "date": "2025-02-14", "reviewerName": "Olivia Martinez" },
+            { "rating": 4, "comment": "A luxurious addition to my home.", "date": "2025-02-14", "reviewerName": "Liam Anderson" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "6789012345678" },
+          "images": [
+            "https://i.imgur.com/NWIJKUj.jpeg",
+            "https://i.imgur.com/Jn1YSLk.jpeg",
+            "https://i.imgur.com/VNZRvx5.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/NWIJKUj.jpeg"
+        },      
+      
+      {
+        "id": 31,
+        "title": "Modern Elegance Teal Armchair",
+        "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+        "category": "furniture",
+        "price": 25.0,
+        "discountPercentage": 10.5,
+        "rating": 4.6,
+        "stock": 12,
+        "tags": [
+          "furniture",
+          "armchair",
+          "modern"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "ARMC001",
+        "weight": 18,
+        "dimensions": {
+          "width": 32.5,
+          "height": 40.0,
+          "depth": 30.0
+        },
+        "warrantyInformation": "1-year limited warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Absolutely love this chair! Comfortable and stylish.",
+            "date": "2025-02-10T12:34:56.000Z",
+            "reviewerName": "Alice Brown",
+            "reviewerEmail": "alice.brown@example.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890123",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/6wkyyIN.jpeg",
+          "https://i.imgur.com/Ald3Rec.jpeg",
+          "https://i.imgur.com/dIqo03c.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/6wkyyIN.jpeg"
+      },
+      {
+        "id": 32,
+        "title": "Elegant Solid Wood Dining Table",
+        "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+        "category": "furniture",
+        "price": 67.0,
+        "discountPercentage": 8.0,
+        "rating": 4.7,
+        "stock": 8,
+        "tags": [
+          "furniture",
+          "dining table",
+          "solid wood"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "DNTB002",
+        "weight": 50,
+        "dimensions": {
+          "width": 72.0,
+          "height": 30.0,
+          "depth": 36.0
+        },
+        "warrantyInformation": "2-year limited warranty",
+        "shippingInformation": "Ships in 5-7 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Perfect dining table for our family dinners!",
+            "date": "2025-02-12T14:22:30.000Z",
+            "reviewerName": "John Smith",
+            "reviewerEmail": "john.smith@example.com"
+          }
+        ],
+        "returnPolicy": "60-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890124",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/4lTaHfF.jpeg",
+          "https://i.imgur.com/JktHE1C.jpeg",
+          "https://i.imgur.com/cQeXQMi.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/4lTaHfF.jpeg"
+      },
+        {
+          "id": 28,
+          "title": "Sleek Modern Leather Sofa",
+          "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+          "category": "furniture",
+          "price": 53,
+          "discountPercentage": 12.5,
+          "rating": 4.6,
+          "stock": 15,
+          "tags": ["furniture", "sofa", "modern"],
+          "brand": "Luxury Living",
+          "sku": "SLMS-1023",
+          "weight": 40,
+          "dimensions": { "width": 80, "height": 35, "depth": 30 },
+          "warrantyInformation": "1-year manufacturer warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Looks amazing in my living room!", "date": "2025-02-14", "reviewerName": "Daniel Scott" },
+            { "rating": 4, "comment": "Comfortable and stylish.", "date": "2025-02-14", "reviewerName": "Sophia Reynolds" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "1234567890123" },
+          "images": [
+            "https://i.imgur.com/Qphac99.jpeg",
+            "https://i.imgur.com/dJjpEgG.jpeg",
+            "https://i.imgur.com/MxJyADq.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/Qphac99.jpeg"
+        },
+        {
+          "id": 29,
+          "title": "Mid-Century Modern Wooden Dining Table",
+          "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+          "category": "furniture",
+          "price": 24,
+          "discountPercentage": 10,
+          "rating": 4.3,
+          "stock": 30,
+          "tags": ["furniture", "dining table", "mid-century"],
+          "brand": "Timeless Woodworks",
+          "sku": "MCMDT-9876",
+          "weight": 25,
+          "dimensions": { "width": 60, "height": 30, "depth": 35 },
+          "warrantyInformation": "6-month limited warranty",
+          "shippingInformation": "Ships within 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 4, "comment": "A beautiful dining table, very sturdy!", "date": "2025-02-14", "reviewerName": "Emma Johnson" },
+            { "rating": 3, "comment": "Expected it to be a bit larger.", "date": "2025-02-14", "reviewerName": "Michael Brown" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "9876543210987" },
+          "images": [
+            "https://i.imgur.com/DMQHGA0.jpeg",
+            "https://i.imgur.com/qrs9QBg.jpeg",
+            "https://i.imgur.com/XVp8T1I.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/DMQHGA0.jpeg"
+        },
+        {
+          "id": 30,
+          "title": "Elegant Golden-Base Stone Top Dining Table",
+          "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+          "category": "furniture",
+          "price": 66,
+          "discountPercentage": 15,
+          "rating": 4.7,
+          "stock": 12,
+          "tags": ["furniture", "dining table", "luxury"],
+          "brand": "Royal Interiors",
+          "sku": "EGBST-7654",
+          "weight": 50,
+          "dimensions": { "width": 55, "height": 32, "depth": 55 },
+          "warrantyInformation": "1-year limited warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Absolutely stunning and high quality!", "date": "2025-02-14", "reviewerName": "Olivia Martinez" },
+            { "rating": 4, "comment": "A luxurious addition to my home.", "date": "2025-02-14", "reviewerName": "Liam Anderson" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "6789012345678" },
+          "images": [
+            "https://i.imgur.com/NWIJKUj.jpeg",
+            "https://i.imgur.com/Jn1YSLk.jpeg",
+            "https://i.imgur.com/VNZRvx5.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/NWIJKUj.jpeg"
+        },      
+      
+      {
+        "id": 31,
+        "title": "Modern Elegance Teal Armchair",
+        "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+        "category": "furniture",
+        "price": 25.0,
+        "discountPercentage": 10.5,
+        "rating": 4.6,
+        "stock": 12,
+        "tags": [
+          "furniture",
+          "armchair",
+          "modern"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "ARMC001",
+        "weight": 18,
+        "dimensions": {
+          "width": 32.5,
+          "height": 40.0,
+          "depth": 30.0
+        },
+        "warrantyInformation": "1-year limited warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Absolutely love this chair! Comfortable and stylish.",
+            "date": "2025-02-10T12:34:56.000Z",
+            "reviewerName": "Alice Brown",
+            "reviewerEmail": "alice.brown@example.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890123",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/6wkyyIN.jpeg",
+          "https://i.imgur.com/Ald3Rec.jpeg",
+          "https://i.imgur.com/dIqo03c.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/6wkyyIN.jpeg"
+      },
+      {
+        "id": 32,
+        "title": "Elegant Solid Wood Dining Table",
+        "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+        "category": "furniture",
+        "price": 67.0,
+        "discountPercentage": 8.0,
+        "rating": 4.7,
+        "stock": 8,
+        "tags": [
+          "furniture",
+          "dining table",
+          "solid wood"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "DNTB002",
+        "weight": 50,
+        "dimensions": {
+          "width": 72.0,
+          "height": 30.0,
+          "depth": 36.0
+        },
+        "warrantyInformation": "2-year limited warranty",
+        "shippingInformation": "Ships in 5-7 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Perfect dining table for our family dinners!",
+            "date": "2025-02-12T14:22:30.000Z",
+            "reviewerName": "John Smith",
+            "reviewerEmail": "john.smith@example.com"
+          }
+        ],
+        "returnPolicy": "60-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890124",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/4lTaHfF.jpeg",
+          "https://i.imgur.com/JktHE1C.jpeg",
+          "https://i.imgur.com/cQeXQMi.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/4lTaHfF.jpeg"
+      },
+        {
+          "id": 28,
+          "title": "Sleek Modern Leather Sofa",
+          "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+          "category": "furniture",
+          "price": 53,
+          "discountPercentage": 12.5,
+          "rating": 4.6,
+          "stock": 15,
+          "tags": ["furniture", "sofa", "modern"],
+          "brand": "Luxury Living",
+          "sku": "SLMS-1023",
+          "weight": 40,
+          "dimensions": { "width": 80, "height": 35, "depth": 30 },
+          "warrantyInformation": "1-year manufacturer warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Looks amazing in my living room!", "date": "2025-02-14", "reviewerName": "Daniel Scott" },
+            { "rating": 4, "comment": "Comfortable and stylish.", "date": "2025-02-14", "reviewerName": "Sophia Reynolds" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "1234567890123" },
+          "images": [
+            "https://i.imgur.com/Qphac99.jpeg",
+            "https://i.imgur.com/dJjpEgG.jpeg",
+            "https://i.imgur.com/MxJyADq.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/Qphac99.jpeg"
+        },
+        {
+          "id": 29,
+          "title": "Mid-Century Modern Wooden Dining Table",
+          "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+          "category": "furniture",
+          "price": 24,
+          "discountPercentage": 10,
+          "rating": 4.3,
+          "stock": 30,
+          "tags": ["furniture", "dining table", "mid-century"],
+          "brand": "Timeless Woodworks",
+          "sku": "MCMDT-9876",
+          "weight": 25,
+          "dimensions": { "width": 60, "height": 30, "depth": 35 },
+          "warrantyInformation": "6-month limited warranty",
+          "shippingInformation": "Ships within 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 4, "comment": "A beautiful dining table, very sturdy!", "date": "2025-02-14", "reviewerName": "Emma Johnson" },
+            { "rating": 3, "comment": "Expected it to be a bit larger.", "date": "2025-02-14", "reviewerName": "Michael Brown" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "9876543210987" },
+          "images": [
+            "https://i.imgur.com/DMQHGA0.jpeg",
+            "https://i.imgur.com/qrs9QBg.jpeg",
+            "https://i.imgur.com/XVp8T1I.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/DMQHGA0.jpeg"
+        },
+        {
+          "id": 30,
+          "title": "Elegant Golden-Base Stone Top Dining Table",
+          "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+          "category": "furniture",
+          "price": 66,
+          "discountPercentage": 15,
+          "rating": 4.7,
+          "stock": 12,
+          "tags": ["furniture", "dining table", "luxury"],
+          "brand": "Royal Interiors",
+          "sku": "EGBST-7654",
+          "weight": 50,
+          "dimensions": { "width": 55, "height": 32, "depth": 55 },
+          "warrantyInformation": "1-year limited warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Absolutely stunning and high quality!", "date": "2025-02-14", "reviewerName": "Olivia Martinez" },
+            { "rating": 4, "comment": "A luxurious addition to my home.", "date": "2025-02-14", "reviewerName": "Liam Anderson" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "6789012345678" },
+          "images": [
+            "https://i.imgur.com/NWIJKUj.jpeg",
+            "https://i.imgur.com/Jn1YSLk.jpeg",
+            "https://i.imgur.com/VNZRvx5.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/NWIJKUj.jpeg"
+        },      
+      
+      {
+        "id": 31,
+        "title": "Modern Elegance Teal Armchair",
+        "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+        "category": "furniture",
+        "price": 25.0,
+        "discountPercentage": 10.5,
+        "rating": 4.6,
+        "stock": 12,
+        "tags": [
+          "furniture",
+          "armchair",
+          "modern"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "ARMC001",
+        "weight": 18,
+        "dimensions": {
+          "width": 32.5,
+          "height": 40.0,
+          "depth": 30.0
+        },
+        "warrantyInformation": "1-year limited warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Absolutely love this chair! Comfortable and stylish.",
+            "date": "2025-02-10T12:34:56.000Z",
+            "reviewerName": "Alice Brown",
+            "reviewerEmail": "alice.brown@example.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890123",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/6wkyyIN.jpeg",
+          "https://i.imgur.com/Ald3Rec.jpeg",
+          "https://i.imgur.com/dIqo03c.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/6wkyyIN.jpeg"
+      },
+      {
+        "id": 32,
+        "title": "Elegant Solid Wood Dining Table",
+        "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+        "category": "furniture",
+        "price": 67.0,
+        "discountPercentage": 8.0,
+        "rating": 4.7,
+        "stock": 8,
+        "tags": [
+          "furniture",
+          "dining table",
+          "solid wood"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "DNTB002",
+        "weight": 50,
+        "dimensions": {
+          "width": 72.0,
+          "height": 30.0,
+          "depth": 36.0
+        },
+        "warrantyInformation": "2-year limited warranty",
+        "shippingInformation": "Ships in 5-7 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Perfect dining table for our family dinners!",
+            "date": "2025-02-12T14:22:30.000Z",
+            "reviewerName": "John Smith",
+            "reviewerEmail": "john.smith@example.com"
+          }
+        ],
+        "returnPolicy": "60-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890124",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/4lTaHfF.jpeg",
+          "https://i.imgur.com/JktHE1C.jpeg",
+          "https://i.imgur.com/cQeXQMi.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/4lTaHfF.jpeg"
+      },
+        {
+          "id": 28,
+          "title": "Sleek Modern Leather Sofa",
+          "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+          "category": "furniture",
+          "price": 53,
+          "discountPercentage": 12.5,
+          "rating": 4.6,
+          "stock": 15,
+          "tags": ["furniture", "sofa", "modern"],
+          "brand": "Luxury Living",
+          "sku": "SLMS-1023",
+          "weight": 40,
+          "dimensions": { "width": 80, "height": 35, "depth": 30 },
+          "warrantyInformation": "1-year manufacturer warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Looks amazing in my living room!", "date": "2025-02-14", "reviewerName": "Daniel Scott" },
+            { "rating": 4, "comment": "Comfortable and stylish.", "date": "2025-02-14", "reviewerName": "Sophia Reynolds" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "1234567890123" },
+          "images": [
+            "https://i.imgur.com/Qphac99.jpeg",
+            "https://i.imgur.com/dJjpEgG.jpeg",
+            "https://i.imgur.com/MxJyADq.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/Qphac99.jpeg"
+        },
+        {
+          "id": 29,
+          "title": "Mid-Century Modern Wooden Dining Table",
+          "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+          "category": "furniture",
+          "price": 24,
+          "discountPercentage": 10,
+          "rating": 4.3,
+          "stock": 30,
+          "tags": ["furniture", "dining table", "mid-century"],
+          "brand": "Timeless Woodworks",
+          "sku": "MCMDT-9876",
+          "weight": 25,
+          "dimensions": { "width": 60, "height": 30, "depth": 35 },
+          "warrantyInformation": "6-month limited warranty",
+          "shippingInformation": "Ships within 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 4, "comment": "A beautiful dining table, very sturdy!", "date": "2025-02-14", "reviewerName": "Emma Johnson" },
+            { "rating": 3, "comment": "Expected it to be a bit larger.", "date": "2025-02-14", "reviewerName": "Michael Brown" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "9876543210987" },
+          "images": [
+            "https://i.imgur.com/DMQHGA0.jpeg",
+            "https://i.imgur.com/qrs9QBg.jpeg",
+            "https://i.imgur.com/XVp8T1I.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/DMQHGA0.jpeg"
+        },
+        {
+          "id": 30,
+          "title": "Elegant Golden-Base Stone Top Dining Table",
+          "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+          "category": "furniture",
+          "price": 66,
+          "discountPercentage": 15,
+          "rating": 4.7,
+          "stock": 12,
+          "tags": ["furniture", "dining table", "luxury"],
+          "brand": "Royal Interiors",
+          "sku": "EGBST-7654",
+          "weight": 50,
+          "dimensions": { "width": 55, "height": 32, "depth": 55 },
+          "warrantyInformation": "1-year limited warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Absolutely stunning and high quality!", "date": "2025-02-14", "reviewerName": "Olivia Martinez" },
+            { "rating": 4, "comment": "A luxurious addition to my home.", "date": "2025-02-14", "reviewerName": "Liam Anderson" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "6789012345678" },
+          "images": [
+            "https://i.imgur.com/NWIJKUj.jpeg",
+            "https://i.imgur.com/Jn1YSLk.jpeg",
+            "https://i.imgur.com/VNZRvx5.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/NWIJKUj.jpeg"
+        },      
+      
+      {
+        "id": 31,
+        "title": "Modern Elegance Teal Armchair",
+        "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+        "category": "furniture",
+        "price": 25.0,
+        "discountPercentage": 10.5,
+        "rating": 4.6,
+        "stock": 12,
+        "tags": [
+          "furniture",
+          "armchair",
+          "modern"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "ARMC001",
+        "weight": 18,
+        "dimensions": {
+          "width": 32.5,
+          "height": 40.0,
+          "depth": 30.0
+        },
+        "warrantyInformation": "1-year limited warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Absolutely love this chair! Comfortable and stylish.",
+            "date": "2025-02-10T12:34:56.000Z",
+            "reviewerName": "Alice Brown",
+            "reviewerEmail": "alice.brown@example.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890123",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/6wkyyIN.jpeg",
+          "https://i.imgur.com/Ald3Rec.jpeg",
+          "https://i.imgur.com/dIqo03c.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/6wkyyIN.jpeg"
+      },
+      {
+        "id": 32,
+        "title": "Elegant Solid Wood Dining Table",
+        "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+        "category": "furniture",
+        "price": 67.0,
+        "discountPercentage": 8.0,
+        "rating": 4.7,
+        "stock": 8,
+        "tags": [
+          "furniture",
+          "dining table",
+          "solid wood"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "DNTB002",
+        "weight": 50,
+        "dimensions": {
+          "width": 72.0,
+          "height": 30.0,
+          "depth": 36.0
+        },
+        "warrantyInformation": "2-year limited warranty",
+        "shippingInformation": "Ships in 5-7 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Perfect dining table for our family dinners!",
+            "date": "2025-02-12T14:22:30.000Z",
+            "reviewerName": "John Smith",
+            "reviewerEmail": "john.smith@example.com"
+          }
+        ],
+        "returnPolicy": "60-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890124",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/4lTaHfF.jpeg",
+          "https://i.imgur.com/JktHE1C.jpeg",
+          "https://i.imgur.com/cQeXQMi.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/4lTaHfF.jpeg"
+      },
+        {
+          "id": 28,
+          "title": "Sleek Modern Leather Sofa",
+          "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+          "category": "furniture",
+          "price": 53,
+          "discountPercentage": 12.5,
+          "rating": 4.6,
+          "stock": 15,
+          "tags": ["furniture", "sofa", "modern"],
+          "brand": "Luxury Living",
+          "sku": "SLMS-1023",
+          "weight": 40,
+          "dimensions": { "width": 80, "height": 35, "depth": 30 },
+          "warrantyInformation": "1-year manufacturer warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Looks amazing in my living room!", "date": "2025-02-14", "reviewerName": "Daniel Scott" },
+            { "rating": 4, "comment": "Comfortable and stylish.", "date": "2025-02-14", "reviewerName": "Sophia Reynolds" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "1234567890123" },
+          "images": [
+            "https://i.imgur.com/Qphac99.jpeg",
+            "https://i.imgur.com/dJjpEgG.jpeg",
+            "https://i.imgur.com/MxJyADq.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/Qphac99.jpeg"
+        },
+        {
+          "id": 29,
+          "title": "Mid-Century Modern Wooden Dining Table",
+          "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+          "category": "furniture",
+          "price": 24,
+          "discountPercentage": 10,
+          "rating": 4.3,
+          "stock": 30,
+          "tags": ["furniture", "dining table", "mid-century"],
+          "brand": "Timeless Woodworks",
+          "sku": "MCMDT-9876",
+          "weight": 25,
+          "dimensions": { "width": 60, "height": 30, "depth": 35 },
+          "warrantyInformation": "6-month limited warranty",
+          "shippingInformation": "Ships within 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 4, "comment": "A beautiful dining table, very sturdy!", "date": "2025-02-14", "reviewerName": "Emma Johnson" },
+            { "rating": 3, "comment": "Expected it to be a bit larger.", "date": "2025-02-14", "reviewerName": "Michael Brown" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "9876543210987" },
+          "images": [
+            "https://i.imgur.com/DMQHGA0.jpeg",
+            "https://i.imgur.com/qrs9QBg.jpeg",
+            "https://i.imgur.com/XVp8T1I.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/DMQHGA0.jpeg"
+        },
+        {
+          "id": 30,
+          "title": "Elegant Golden-Base Stone Top Dining Table",
+          "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+          "category": "furniture",
+          "price": 66,
+          "discountPercentage": 15,
+          "rating": 4.7,
+          "stock": 12,
+          "tags": ["furniture", "dining table", "luxury"],
+          "brand": "Royal Interiors",
+          "sku": "EGBST-7654",
+          "weight": 50,
+          "dimensions": { "width": 55, "height": 32, "depth": 55 },
+          "warrantyInformation": "1-year limited warranty",
+          "shippingInformation": "Ships within 5-7 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            { "rating": 5, "comment": "Absolutely stunning and high quality!", "date": "2025-02-14", "reviewerName": "Olivia Martinez" },
+            { "rating": 4, "comment": "A luxurious addition to my home.", "date": "2025-02-14", "reviewerName": "Liam Anderson" }
+          ],
+          "returnPolicy": "30-day return policy",
+          "minimumOrderQuantity": 1,
+          "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "6789012345678" },
+          "images": [
+            "https://i.imgur.com/NWIJKUj.jpeg",
+            "https://i.imgur.com/Jn1YSLk.jpeg",
+            "https://i.imgur.com/VNZRvx5.jpeg"
+          ],
+          "thumbnail": "https://i.imgur.com/NWIJKUj.jpeg"
+        },      
+      
+      {
+        "id": 31,
+        "title": "Modern Elegance Teal Armchair",
+        "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+        "category": "furniture",
+        "price": 25.0,
+        "discountPercentage": 10.5,
+        "rating": 4.6,
+        "stock": 12,
+        "tags": [
+          "furniture",
+          "armchair",
+          "modern"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "ARMC001",
+        "weight": 18,
+        "dimensions": {
+          "width": 32.5,
+          "height": 40.0,
+          "depth": 30.0
+        },
+        "warrantyInformation": "1-year limited warranty",
+        "shippingInformation": "Ships in 3-5 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Absolutely love this chair! Comfortable and stylish.",
+            "date": "2025-02-10T12:34:56.000Z",
+            "reviewerName": "Alice Brown",
+            "reviewerEmail": "alice.brown@example.com"
+          }
+        ],
+        "returnPolicy": "30-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890123",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/6wkyyIN.jpeg",
+          "https://i.imgur.com/Ald3Rec.jpeg",
+          "https://i.imgur.com/dIqo03c.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/6wkyyIN.jpeg"
+      },
+      {
+        "id": 32,
+        "title": "Elegant Solid Wood Dining Table",
+        "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+        "category": "furniture",
+        "price": 67.0,
+        "discountPercentage": 8.0,
+        "rating": 4.7,
+        "stock": 8,
+        "tags": [
+          "furniture",
+          "dining table",
+          "solid wood"
+        ],
+        "brand": "Furniture Co.",
+        "sku": "DNTB002",
+        "weight": 50,
+        "dimensions": {
+          "width": 72.0,
+          "height": 30.0,
+          "depth": 36.0
+        },
+        "warrantyInformation": "2-year limited warranty",
+        "shippingInformation": "Ships in 5-7 business days",
+        "availabilityStatus": "In Stock",
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "Perfect dining table for our family dinners!",
+            "date": "2025-02-12T14:22:30.000Z",
+            "reviewerName": "John Smith",
+            "reviewerEmail": "john.smith@example.com"
+          }
+        ],
+        "returnPolicy": "60-day return policy",
+        "minimumOrderQuantity": 1,
+        "meta": {
+          "createdAt": "2025-02-14T18:24:25.000Z",
+          "updatedAt": "2025-02-14T18:24:25.000Z",
+          "barcode": "1234567890124",
+          "qrCode": "https://example.com/qr-code.png"
+        },
+        "images": [
+          "https://i.imgur.com/4lTaHfF.jpeg",
+          "https://i.imgur.com/JktHE1C.jpeg",
+          "https://i.imgur.com/cQeXQMi.jpeg"
+        ],
+        "thumbnail": "https://i.imgur.com/4lTaHfF.jpeg"
+      },
   {
     "id": 33,
     "title": "Modern Minimalist Workstation Setup",

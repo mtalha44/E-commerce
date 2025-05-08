@@ -4,8 +4,13 @@ import "../Home/Ui/CardStyling.css"
 import "../Ui/styling.css"
 import { useNavigate } from "react-router-dom";
 
-export const AllFurnitureCards = ({curdata}) => {
+export const AllElectronicsCards = ({curdata}) => {
     const navigate = useNavigate();
+    const getShortName = (name, maxWords = 5) => {
+      const words = name.split(' ');
+      if (words.length <= maxWords) return name;
+      return words.slice(0, maxWords).join(' ');
+    };
       
     return (
         <li 
@@ -13,7 +18,7 @@ export const AllFurnitureCards = ({curdata}) => {
               <img src={curdata.images[0]} alt={curdata.images[1] || curdata.images[3]} loading="lazy" onClick={() => navigate(`/detail-product/${curdata.id}`)}/>
               <div className="home-card-item-details product-card-item-details">
                 <h4 className="home-card-item-title product-card-item-title" style={{ textAlign: "center" }}>
-                  {curdata.title}
+                  {getShortName(curdata.title)}
                 </h4>
                 <p className = "card-price product-card-price">
                   {curdata.price}$ <del>{ curdata.price + 10}$</del>

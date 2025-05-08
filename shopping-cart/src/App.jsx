@@ -4,6 +4,7 @@ import { AppLayout } from "./Components/AppLayout/Applayout";
 import { Home } from "./Components/Pages/Home/Home";
 import { AllMakeup } from "./Components/Pages/Makeup/AllMakeup";
 import { AllFurniture } from "./Components/Pages/Furniture/AllFurniture";
+import { AllElectronics } from "./Components/Pages/Electronics/AllElectronics";
 
 function App() {
   const router = createBrowserRouter([
@@ -34,8 +35,8 @@ function App() {
           element: <h1>mixed</h1>,
         },
         {
-          path: "/watches",
-          element: <h1>watches</h1>,
+          path: "/electronics",
+          element: <AllElectronics/>,
         },
         {
           path: "/furniture",

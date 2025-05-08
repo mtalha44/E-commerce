@@ -74,8 +74,8 @@ useEffect(() => {
             <NavLink to="/mixed" className="dropdown-item">
               Mixed
             </NavLink>
-            <NavLink to="/watches" className="dropdown-item">
-              Watches
+            <NavLink to="/electronics" className="dropdown-item">
+              Electronics
             </NavLink>
             <NavLink to="/furniture" className="dropdown-item">
               Furniture

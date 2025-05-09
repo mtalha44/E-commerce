@@ -6,7 +6,17 @@ export const BestProductCard = ({curdata}) => {
 
     return (
         <li className="home-card-item" key={curdata.id}>
-              <img src={curdata.images[0]} alt={curdata.images[1]} loading="lazy" />
+              <img 
+                  src={ 
+                        curdata.images?.[0] || 
+                        curdata.images?.[0] ||
+                        curdata.image || 
+                        'fallback.jpg' } 
+                  alt={ 
+                         curdata.category?.image || 
+                         curdata.images?.[2] || 
+                         'Product image'
+                    }  loading="lazy" />
               <div className="home-card-item-details">
                 <h4 className="home-card-item-title" style={{ textAlign: "center" }}>{curdata.title}</h4>
                 <p style={{ textAlign: "center" }}>

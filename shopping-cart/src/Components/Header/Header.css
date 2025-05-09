@@ -6,7 +6,7 @@
     left: 0;
     z-index: 10000;
     border-bottom: 1px solid #ddd;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .social-tab{
     padding: 7px 10px 7px 10px;
@@ -51,15 +51,16 @@
 }
 .menu{
     display: none;
-    position: fixed; /* Sticks the element to a fixed position on the screen */
-    top: 3.5rem;       /* Distance from the top of the screen */
-    right: 4rem;     /* Distance from the right edge of the screen */
+    position: absolute; 
+    top: 1.2rem;       /* Distance from the top of the screen */
+    right: 1rem;     /* Distance from the right edge of the screen */
     z-index: 100;    /* Ensures it appears above other elements */
     font-size: small;
     width: 10rem;
     padding: 0.5rem 1.5rem 0.5rem 1rem;
     background-color: #f8f8f8;
     box-shadow: 0 0px 3px rgba(0, 0, 0, 0.20);
+    transition: all 0.3s ease-in-out;
 }
 
 /* hover effect */
@@ -252,8 +253,8 @@
     color: #58cbe6;
   }
   .dropdown-menu {
-    position: fixed;
-    /* top: 40px; */
+    position: absolute;
+    top: 40px;
     /* left: 0; */
     background-color: white;
     border-top:2px solid #58cbe6;

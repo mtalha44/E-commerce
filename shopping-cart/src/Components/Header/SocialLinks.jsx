@@ -39,7 +39,6 @@ export const Social = () => {
                 <a href="" className="my-account">My Account</a>
                 <a href="" className="login">Login</a>
                 <div className="menu-icon" onClick={toggleMenu}>
-                    {/* <ImMenu/>                                          */}
                     <LuMenu/>
                  </div>
             </div>

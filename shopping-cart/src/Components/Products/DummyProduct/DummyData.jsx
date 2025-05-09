@@ -4177,6 +4177,412 @@ export const newDummyData = [
       }
     },
     {
+      "id": 2,
+      "title": "Classic Red Pullover Hoodie",
+      "price": 500,
+      "description": "Elevate your casual wardrobe with our Classic Red Pullover Hoodie. Crafted with a soft cotton blend for ultimate comfort, this vibrant red hoodie features a kangaroo pocket, adjustable drawstring hood, and ribbed cuffs for a snug fit. The timeless design ensures easy pairing with jeans or joggers for a relaxed yet stylish look, making it a versatile addition to your everyday attire.",
+      "images": [
+        "https://i.imgur.com/1twoaDy.jpeg",
+        "https://i.imgur.com/FDwQgLy.jpeg",
+        "https://i.imgur.com/kg1ZhhH.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-15T03:25:27.000Z",
+      "category": {
+        "id": 1,
+        "name": "Clothes",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Windbreaker Striped Climbing Raincoats",
+      "price": 39.99,
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 20,
+      "title": "DANVOUY Womens T Shirt",
+      "price": 12.99,
+      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    },
+    {
+      "id": 28,
+      "title": "Sleek Modern Leather Sofa",
+      "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+      "category": "furniture",
+      "price": 53,
+      "discountPercentage": 12.5,
+      "rating": 4.6,
+      "stock": 15,
+      "tags": ["furniture", "sofa", "modern"],
+      "brand": "Luxury Living",
+      "sku": "SLMS-1023",
+      "weight": 40,
+      "dimensions": { "width": 80, "height": 35, "depth": 30 },
+      "warrantyInformation": "1-year manufacturer warranty",
+      "shippingInformation": "Ships within 5-7 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        { "rating": 5, "comment": "Looks amazing in my living room!", "date": "2025-02-14", "reviewerName": "Daniel Scott" },
+        { "rating": 4, "comment": "Comfortable and stylish.", "date": "2025-02-14", "reviewerName": "Sophia Reynolds" }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "1234567890123" },
+      "images": [
+        "https://i.imgur.com/Qphac99.jpeg",
+        "https://i.imgur.com/dJjpEgG.jpeg",
+        "https://i.imgur.com/MxJyADq.jpeg"
+      ],
+      "thumbnail": "https://i.imgur.com/Qphac99.jpeg"
+    },
+    {
+      "id": 29,
+      "title": "Mid-Century Modern Wooden Dining Table",
+      "description": "Elevate your dining room with this sleek Mid-Century Modern dining table, featuring an elegant walnut finish and tapered legs for a timeless aesthetic. Its sturdy wood construction and minimalist design make it a versatile piece that fits with a variety of decor styles. Perfect for intimate dinners or as a stylish spot for your morning coffee.",
+      "category": "furniture",
+      "price": 24,
+      "discountPercentage": 10,
+      "rating": 4.3,
+      "stock": 30,
+      "tags": ["furniture", "dining table", "mid-century"],
+      "brand": "Timeless Woodworks",
+      "sku": "MCMDT-9876",
+      "weight": 25,
+      "dimensions": { "width": 60, "height": 30, "depth": 35 },
+      "warrantyInformation": "6-month limited warranty",
+      "shippingInformation": "Ships within 3-5 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        { "rating": 4, "comment": "A beautiful dining table, very sturdy!", "date": "2025-02-14", "reviewerName": "Emma Johnson" },
+        { "rating": 3, "comment": "Expected it to be a bit larger.", "date": "2025-02-14", "reviewerName": "Michael Brown" }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "9876543210987" },
+      "images": [
+        "https://i.imgur.com/DMQHGA0.jpeg",
+        "https://i.imgur.com/qrs9QBg.jpeg",
+        "https://i.imgur.com/XVp8T1I.jpeg"
+      ],
+      "thumbnail": "https://i.imgur.com/DMQHGA0.jpeg"
+    },
+    {
+      "id": 30,
+      "title": "Elegant Golden-Base Stone Top Dining Table",
+      "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+      "category": "furniture",
+      "price": 66,
+      "discountPercentage": 15,
+      "rating": 4.7,
+      "stock": 12,
+      "tags": ["furniture", "dining table", "luxury"],
+      "brand": "Royal Interiors",
+      "sku": "EGBST-7654",
+      "weight": 50,
+      "dimensions": { "width": 55, "height": 32, "depth": 55 },
+      "warrantyInformation": "1-year limited warranty",
+      "shippingInformation": "Ships within 5-7 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        { "rating": 5, "comment": "Absolutely stunning and high quality!", "date": "2025-02-14", "reviewerName": "Olivia Martinez" },
+        { "rating": 4, "comment": "A luxurious addition to my home.", "date": "2025-02-14", "reviewerName": "Liam Anderson" }
+      ],
+      "returnPolicy": "30-day return policy",
+      "minimumOrderQuantity": 1,
+      "meta": { "createdAt": "2025-02-14", "updatedAt": "2025-02-14", "barcode": "6789012345678" },
+      "images": [
+        "https://i.imgur.com/NWIJKUj.jpeg",
+        "https://i.imgur.com/Jn1YSLk.jpeg",
+        "https://i.imgur.com/VNZRvx5.jpeg"
+      ],
+      "thumbnail": "https://i.imgur.com/NWIJKUj.jpeg"
+    },      
+  
+  {
+    "id": 31,
+    "title": "Modern Elegance Teal Armchair",
+    "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+    "category": "furniture",
+    "price": 25.0,
+    "discountPercentage": 10.5,
+    "rating": 4.6,
+    "stock": 12,
+    "tags": [
+      "furniture",
+      "armchair",
+      "modern"
+    ],
+    "brand": "Furniture Co.",
+    "sku": "ARMC001",
+    "weight": 18,
+    "dimensions": {
+      "width": 32.5,
+      "height": 40.0,
+      "depth": 30.0
+    },
+    "warrantyInformation": "1-year limited warranty",
+    "shippingInformation": "Ships in 3-5 business days",
+    "availabilityStatus": "In Stock",
+    "reviews": [
+      {
+        "rating": 5,
+        "comment": "Absolutely love this chair! Comfortable and stylish.",
+        "date": "2025-02-10T12:34:56.000Z",
+        "reviewerName": "Alice Brown",
+        "reviewerEmail": "alice.brown@example.com"
+      }
+    ],
+    "returnPolicy": "30-day return policy",
+    "minimumOrderQuantity": 1,
+    "meta": {
+      "createdAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "barcode": "1234567890123",
+      "qrCode": "https://example.com/qr-code.png"
+    },
+    "images": [
+      "https://i.imgur.com/6wkyyIN.jpeg",
+      "https://i.imgur.com/Ald3Rec.jpeg",
+      "https://i.imgur.com/dIqo03c.jpeg"
+    ],
+    "thumbnail": "https://i.imgur.com/6wkyyIN.jpeg"
+  },
+    {
+      "id": 7,
+      "title": "Classic Comfort Drawstring Joggers",
+      "price": 79,
+      "description": "Experience the perfect blend of comfort and style with our Classic Comfort Drawstring Joggers. Designed for a relaxed fit, these joggers feature a soft, stretchable fabric, convenient side pockets, and an adjustable drawstring waist with elegant gold-tipped detailing. Ideal for lounging or running errands, these pants will quickly become your go-to for effortless, casual wear.",
+      "images": [
+        "https://i.imgur.com/mp3rUty.jpeg",
+        "https://i.imgur.com/JQRGIc2.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 1,
+        "name": "Clothes",
+        "image": "https://i.imgur.com/QkIa5tT.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 19,
+      "title": "Wireless Headphone & Inked Earbud",
+      "price": 44,
+      "description": "Experience the fusion of style and sound with this sophisticated audio set featuring a pair of sleek, white wireless headphones offering crystal-clear sound quality and over-ear comfort. The set also includes a set of durable earbuds, perfect for an on-the-go lifestyle. Elevate your music enjoyment with this versatile duo, designed to cater to all your listening needs.",
+      "images": [
+        "https://i.imgur.com/yVeIeDa.jpeg",
+        "https://i.imgur.com/jByJ4ih.jpeg",
+        "https://i.imgur.com/KXj6Tpb.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 2,
+        "name": "Electronics",
+        "image": "https://i.imgur.com/ZANVnHE.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Powder Canister",
+      "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+      "category": "beauty",
+      "price": 14.99,
+      "discountPercentage": 18.14,
+      "rating": 3.82,
+      "stock": 59,
+      "tags": [
+        "beauty",
+        "face powder"
+      ],
+      "brand": "Velvet Touch",
+      "sku": "9EN8WLT2",
+      "weight": 8,
+      "dimensions": {
+        "width": 24.16,
+        "height": 10.7,
+        "depth": 11.07
+      },
+      "warrantyInformation": "2 year warranty",
+      "shippingInformation": "Ships in 1-2 business days",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Very happy with my purchase!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Ethan Thompson",
+          "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Great value for money!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Levi Hicks",
+          "reviewerEmail": "levi.hicks@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Highly impressed!",
+          "date": "2024-05-23T08:56:21.618Z",
+          "reviewerName": "Hazel Gardner",
+          "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 25,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.618Z",
+        "updatedAt": "2024-05-23T08:56:21.618Z",
+        "barcode": "0516267971277",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
+    },
+    {
+      "id": 4,
+      "title": "Red Lipstick",
+      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+      "category": "beauty",
+      "price": 12.99,
+      "discountPercentage": 19.03,
+      "rating": 2.51,
+      "stock": 68,
+      "tags": [
+        "beauty",
+        "lipstick"
+      ],
+      "brand": "Chic Cosmetics",
+      "sku": "O5IF1NTA",
+      "weight": 5,
+      "dimensions": {
+        "width": 14.37,
+        "height": 13.94,
+        "depth": 14.6
+      },
+      "warrantyInformation": "Lifetime warranty",
+      "shippingInformation": "Ships in 2 weeks",
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "Great product!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Leo Rivera",
+          "reviewerEmail": "leo.rivera@x.dummyjson.com"
+        },
+        {
+          "rating": 4,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Oscar Powers",
+          "reviewerEmail": "oscar.powers@x.dummyjson.com"
+        },
+        {
+          "rating": 5,
+          "comment": "Very pleased!",
+          "date": "2024-05-23T08:56:21.619Z",
+          "reviewerName": "Carter Rivera",
+          "reviewerEmail": "carter.rivera@x.dummyjson.com"
+        }
+      ],
+      "returnPolicy": "90 days return policy",
+      "minimumOrderQuantity": 6,
+      "meta": {
+        "createdAt": "2024-05-23T08:56:21.619Z",
+        "updatedAt": "2024-05-23T08:56:21.619Z",
+        "barcode": "9444582199406",
+        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+      ],
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"
+    },
+    {
+      "id": 20,
+      "title": "Sleek Comfort-Fit Over-Ear Headphones",
+      "price": 28,
+      "description": "Experience superior sound quality with our Sleek Comfort-Fit Over-Ear Headphones, designed for prolonged use with cushioned ear cups and an adjustable, padded headband. Ideal for immersive listening, whether you're at home, in the office, or on the move. Their durable construction and timeless design provide both aesthetically pleasing looks and long-lasting performance.",
+      "images": [
+        "https://i.imgur.com/SolkFEB.jpeg",
+        "https://i.imgur.com/KIGW49u.jpeg",
+        "https://i.imgur.com/mWwek7p.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 2,
+        "name": "Electronics",
+        "image": "https://i.imgur.com/ZANVnHE.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Efficient 2-Slice Toaster",
+      "price": 48,
+      "description": "Enhance your morning routine with our sleek 2-slice toaster, featuring adjustable browning controls and a removable crumb tray for easy cleaning. This compact and stylish appliance is perfect for any kitchen, ensuring your toast is always golden brown and delicious.",
+      "images": [
+        "https://i.imgur.com/keVCVIa.jpeg",
+        "https://i.imgur.com/afHY7v2.jpeg",
+        "https://i.imgur.com/yAOihUe.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 2,
+        "name": "Electronics",
+        "image": "https://i.imgur.com/ZANVnHE.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Sleek Wireless Computer Mouse",
+      "price": 10,
+      "description": "Experience smooth and precise navigation with this modern wireless mouse, featuring a glossy finish and a comfortable ergonomic design. Its responsive tracking and easy-to-use interface make it the perfect accessory for any desktop or laptop setup. The stylish blue hue adds a splash of color to your workspace, while its compact size ensures it fits neatly in your bag for on-the-go productivity.",
+      "images": [
+        "https://i.imgur.com/w3Y8NwQ.jpeg",
+        "https://i.imgur.com/WJFOGIC.jpeg",
+        "https://i.imgur.com/dV4Nklf.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 2,
+        "name": "Electronics",
+        "image": "https://i.imgur.com/ZANVnHE.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
       "id": 24,
       "title": "Sleek Modern Laptop for Professionals",
       "price": 97,
@@ -4238,6 +4644,106 @@ export const newDummyData = [
       "rating": {
         "rate": 3.6,
         "count": 145
+      }
+    },
+    {
+      "id": 37,
+      "title": "Chic Summer Denim Espadrille Sandals",
+      "price": 33,
+      "description": "Step into summer with style in our denim espadrille sandals. Featuring a braided jute sole for a classic touch and adjustable denim straps for a snug fit, these sandals offer both comfort and a fashionable edge. The easy slip-on design ensures convenience for beach days or casual outings.",
+      "images": [
+        "https://i.imgur.com/9qrmE1b.jpeg",
+        "https://i.imgur.com/wqKxBVH.jpeg",
+        "https://i.imgur.com/sWSV6DK.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 4,
+        "name": "Shoes",
+        "image": "https://i.imgur.com/qNOjJje.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 38,
+      "title": "Vibrant Runners: Bold Orange & Blue Sneakers",
+      "price": 27,
+      "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
+      "images": [
+        "https://i.imgur.com/hKcMNJs.jpeg",
+        "https://i.imgur.com/NYToymX.jpeg",
+        "https://i.imgur.com/HiiapCt.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 4,
+        "name": "Shoes",
+        "image": "https://i.imgur.com/qNOjJje.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 39,
+      "title": "Vibrant Pink Classic Sneakers",
+      "price": 84,
+      "description": "Step into style with our Vibrant Pink Classic Sneakers! These eye-catching shoes feature a bold pink hue with iconic white detailing, offering a sleek, timeless design. Constructed with durable materials and a comfortable fit, they are perfect for those seeking a pop of color in their everyday footwear. Grab a pair today and add some vibrancy to your step!",
+      "images": [
+        "https://i.imgur.com/mcW42Gi.jpeg",
+        "https://i.imgur.com/mhn7qsF.jpeg",
+        "https://i.imgur.com/F8vhnFJ.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 4,
+        "name": "Shoes",
+        "image": "https://i.imgur.com/qNOjJje.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 40,
+      "title": "Futuristic Silver and Gold High-Top Sneaker",
+      "price": 68,
+      "description": "Step into the future with this eye-catching high-top sneaker, designed for those who dare to stand out. The sneaker features a sleek silver body with striking gold accents, offering a modern twist on classic footwear. Its high-top design provides support and style, making it the perfect addition to any avant-garde fashion collection. Grab a pair today and elevate your shoe game!",
+      "images": [
+        "https://i.imgur.com/npLfCGq.jpeg",
+        "https://i.imgur.com/vYim3gj.jpeg",
+        "https://i.imgur.com/HxuHwBO.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 4,
+        "name": "Shoes",
+        "image": "https://i.imgur.com/qNOjJje.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
+      }
+    },
+    {
+      "id": 41,
+      "title": "Futuristic Chic High-Heel Boots",
+      "price": 36,
+      "description": "Elevate your style with our cutting-edge high-heel boots that blend bold design with avant-garde aesthetics. These boots feature a unique color-block heel, a sleek silhouette, and a versatile light grey finish that pairs easily with any cutting-edge outfit. Crafted for the fashion-forward individual, these boots are sure to make a statement.",
+      "images": [
+        "https://i.imgur.com/HqYqLnW.jpeg",
+        "https://i.imgur.com/RlDGnZw.jpeg",
+        "https://i.imgur.com/qa0O6fg.jpeg"
+      ],
+      "creationAt": "2025-02-14T18:24:25.000Z",
+      "updatedAt": "2025-02-14T18:24:25.000Z",
+      "category": {
+        "id": 4,
+        "name": "Shoes",
+        "image": "https://i.imgur.com/qNOjJje.jpeg",
+        "creationAt": "2025-02-14T18:24:25.000Z",
+        "updatedAt": "2025-02-14T18:24:25.000Z"
       }
     },
     {
@@ -4392,7 +4898,7 @@ export const newDummyData = [
   ],
   limit : 7 ,
   skip : 0 ,
-  total : 9,
+  total : 30,
 },
 {
   category : "shoes",

@@ -80,8 +80,8 @@ useEffect(() => {
             <NavLink to="/furniture" className="dropdown-item">
               Furniture
             </NavLink>
-            <NavLink to="/sports" className="dropdown-item">
-              Sports
+            <NavLink to="/clothes" className="dropdown-item">
+              Clothes
             </NavLink>
           </div>
         )}

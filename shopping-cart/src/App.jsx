@@ -5,6 +5,8 @@ import { Home } from "./Components/Pages/Home/Home";
 import { AllMakeup } from "./Components/Pages/Makeup/AllMakeup";
 import { AllFurniture } from "./Components/Pages/Furniture/AllFurniture";
 import { AllElectronics } from "./Components/Pages/Electronics/AllElectronics";
+import { AllClothes } from "./Components/Pages/Clothes/AllClothes";
+import { AllPopular } from "./Components/Pages/Popular/AllPopular";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,7 +21,7 @@ function App() {
         },
         {
           path: "/popular_items",
-          element: <h1>popular items</h1>,
+          element: <AllPopular/>,
         },
         {
           path: "/perfumes",
@@ -43,8 +45,8 @@ function App() {
           element: <AllFurniture/>,
         },
         {
-          path: "/sports",
-          element: <h1>sports</h1>,
+          path: "/clothes",
+          element: <AllClothes/>,
         },
         {
           path: "/shop",

@@ -1,0 +1,23 @@
+.detailed-product-wrapper{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    gap: 2rem;
+}
+.image-container{
+    width: 40%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-image{
+    width: 39%;
+}
+.main-image img {
+    width: 100%;
+    height: auto;
+}

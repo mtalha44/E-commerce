@@ -358,6 +358,10 @@
     .navbar-right-tab{
         width: 400px;
     }
+    .menu{
+     right: 2rem;
+     top: 3.5rem;
+    }
 }
 @media screen and ( max-width : 765px ){
     .navbar-comp{
@@ -393,8 +397,9 @@
         display: none;
     }   
     .menu{
-        top: 2rem;       /* Distance from the top of the screen */
-        right: 1rem;  
+        /* top: 2rem;    
+        right: 1rem;   */
+        top: 5rem;
     }
     .left-social-tab{
         display: flex;
@@ -423,6 +428,9 @@
 @media screen and ( max-width: 385px ) {
     .navbar-comp{
         margin-top: 7rem;
+    }
+    .menu{
+        top: 6.5rem;
     }
 }
 @media screen and ( max-width: 330px ) {
@@ -459,6 +467,9 @@
     }
     .deals-container{
         padding-top: 18rem !important; 
+    }
+    .menu{
+        top: 5.5rem;
     }
 }
 /* @media screen and ( max-width: 270px ) {

@@ -7,6 +7,7 @@ import { AllFurniture } from "./Components/Pages/Furniture/AllFurniture";
 import { AllElectronics } from "./Components/Pages/Electronics/AllElectronics";
 import { AllClothes } from "./Components/Pages/Clothes/AllClothes";
 import { AllPopular } from "./Components/Pages/Popular/AllPopular";
+import { DetailedProduct } from "./Components/Pages/DetailProduct/DetailProduct";
 
 function App() {
   const router = createBrowserRouter([
@@ -55,6 +56,10 @@ function App() {
         {
           path: "/cart",
           element: <h1>cart</h1>,
+        },
+        {
+          path: "/detailed-product",
+          element: <DetailedProduct/>,
         },
         {
           path: "/support-section",
